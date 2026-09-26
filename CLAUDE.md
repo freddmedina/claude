@@ -85,7 +85,7 @@ Formato: `FP-{PRODUCTO}-{COLOR/MATERIAL}-{TALLA}`
   Pendiente: si se quiere renombrar (ej. "Blog" o "Aprende barefoot"), hacerlo ANTES de publicar
   los borradores para no romper los enlaces internos.
 - Artículo ya **publicado** (previo): "¿Qué es el calzado barefoot?" — `que-es-el-calzado-barefoot`.
-  Su autor en Shopify figura como **"Mandala Cases"** (pendiente confirmar si se cambia a Fredd Medina).
+  Autor cambiado de "Mandala Cases" a **Fredd Medina** (2026-09-26).
   En su texto se corrigió "Freddy" → "Fredd Medina" (2026-09-26).
 
 ### 8 artículos creados como BORRADOR (pendientes de revisión de Fredd)
@@ -215,6 +215,21 @@ Pasos (la API no permite crear automatizaciones de marketing, así que se config
   2. **Automático con una app de email (Mailchimp o Klaviyo)** leyendo el feed del blog
      `https://fprojectcompany.com/blogs/news.atom`: envía solo cuando sale un artículo nuevo.
      Requiere instalar la app, sincronizar los suscriptores y revisar el costo del plan.
+- **Decisión (2026-09-26): opción 1, campaña en Shopify Messaging por artículo.** Plantilla lista:
+  - `correos/nuevo-articulo-plantilla.html` (solo contenido, lista para pegar en la sección de código) con
+    marcadores `{{URL_ARTICULO}}`, `{{URL_IMAGEN}}`, `{{ALT_IMAGEN}}`, `{{TITULO}}`, `{{INTRO_FREDD}}`
+    (anécdota o motivo en primera persona), `{{RESUMEN}}` y `{{CONSEJO}}` (consejo corto de fisio).
+  - Estructura: logo → franja salvia "NUEVO EN EL BLOG" → imagen del artículo → título → saludo +
+    intro de Fredd + resumen → botón "Leer el artículo completo" → recuadro "Consejo de fisio" → firma →
+    pie negro con logo blanco, enlace a todos los artículos y aviso educativo.
+  - Ya preparado: `correos/nuevo-articulo-01-beneficios.html` para cuando se publique
+    `beneficios-del-calzado-barefoot-para-la-salud`.
+  - **Flujo:** Fredd publica el artículo → le pide a Claude "prepara el correo de <artículo>" → Claude
+    lee título, resumen, imagen y handle desde Shopify, llena la plantilla y verifica que el artículo esté
+    publicado (nunca enlazar borradores) → Fredd crea una campaña en Marketing → *Crear campaña* →
+    Shopify Messaging, pega el HTML en la sección de código, pone asunto y vista previa, envía prueba y
+    la programa o envía.
+  - Asunto sugerido: "Nuevo en el blog: <título corto> 🦶"; vista previa: primera frase del resumen.
 - Cambios en artículos (2026-09-26): en `zapatos-barefoot-en-colombia-como-elegir` se cambió
   "más de 6 años de práctica clínica" por "13 años pasando consulta" y se añadió la plantilla de transición
   a las características de KIBA.
@@ -225,13 +240,14 @@ Pasos (la API no permite crear automatizaciones de marketing, así que se config
 - [ ] Decidir si traducir colores de variantes (Green/Yellow/Black → Verde/Amarillo/Negro).
 - [ ] Posibles artículos nuevos: "pie plano", "ejercicios para fortalecer los pies".
 - [ ] Revisar reposición de inventario en tallas 44 y 45.
-- [ ] Cambiar la zona horaria de la tienda de EDT a Bogotá (COT).
+- [ ] Cambiar la zona horaria de la tienda de EDT a Bogotá (COT). La API no lo permite: lo hace Fredd en
+  Configuración → General → Valores predeterminados de la tienda → Zona horaria → "(GMT-05:00) Bogotá".
 - [x] Activar la automatización del correo de bienvenida (Fredd la configuró el 2026-09-26).
 - [ ] Confirmar con una suscripción de prueba desde la web que el correo de bienvenida llega bien.
 - [ ] Decidir si el correo de bienvenida lleva un código de descuento.
 - [x] Cambiar el autor de los 8 borradores a "Fredd Medina".
 - [x] Corregir el logo a "THERAPY".
-- [ ] Decidir cómo avisar a los suscriptores cuando se publica un artículo (ver "Aviso de artículos nuevos").
+- [x] Decidir cómo avisar a los suscriptores de artículos nuevos: campaña por artículo con plantilla (2026-09-26).
 - [ ] Revisar las fotos de marca con "THERAPHY" (redes, empaques, material impreso).
 
 ## Historial de sesiones
@@ -244,3 +260,4 @@ Pasos (la API no permite crear automatizaciones de marketing, así que se config
   Correcciones de Fredd: nombre "Fredd Medina", 13 años pasando consulta, mención de la plantilla
   de transición de los KIBA, y logo oficial (PDF) convertido a PNG y subido a Shopify.
   Se instaló Shopify Messaging y Fredd armó el correo de bienvenida con la versión "solo contenido" del HTML.
+  Autor del artículo publicado cambiado a Fredd Medina. Plantilla de correo "Nuevo artículo" creada.
