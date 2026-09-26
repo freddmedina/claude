@@ -111,6 +111,61 @@ en fascitis plantar).
   desde los ya publicados no funcionan.
 - Reemplazar imágenes por fotos propias por tema cuando sea posible y añadir anécdotas clínicas.
 
+## Identidad visual (tomada del tema activo "Tinker", `config/settings_data.json`)
+
+| Elemento | Archivo / valor | URL |
+|---|---|---|
+| Logo principal (fondos claros) | `Diseno_sin_titulo_1.png` (1000×1000) | https://cdn.shopify.com/s/files/1/1004/6446/0145/files/Diseno_sin_titulo_1.png |
+| Logo inverso (fondos oscuros) | `4.png` (1000×1000) | https://cdn.shopify.com/s/files/1/1004/6446/0145/files/4.png |
+| Favicon | `3.png` (475×475) | https://cdn.shopify.com/s/files/1/1004/6446/0145/files/3.png |
+
+- **Colores:** verde salvia `#c3cca6` (botones principales), negro `#000000` (texto, bordes),
+  blanco `#ffffff`, crema `#faf9f1` y `#f1ede7` (fondos), verde hover `#82a31a`,
+  gris borde `#e6e6e6`.
+- **Tipografías:** títulos **Bayon** (en mayúsculas), texto **Instrument Sans**, acento Radio Canada Big.
+- **Botones:** fondo `#c3cca6`, texto negro, borde negro de 1px, bordes redondeados (píldora).
+- Nota técnica: desde las sesiones en la nube el CDN de Shopify está bloqueado por red,
+  así que Claude no puede ver las imágenes. Los logos se identificaron por la configuración del tema.
+
+## Correos y newsletter
+
+- En la web hay un formulario de newsletter ("ofertas e información"). Los suscriptores quedan
+  como clientes con `email_marketing_state: subscribed`. Al 2026-09-26 había **1 suscriptor**.
+- Se envía desde Shopify Messaging (Shopify Email), con el remitente de la tienda
+  (fprojectcompany26@gmail.com).
+
+### Guía de tono para TODOS los correos
+- Escribe Freddy en primera persona, tuteando, cercano y cálido ("¡Hola! 👋", "Un abrazo").
+- Respaldo en fisioterapia: mencionar la experiencia clínica y explicar el porqué, sin sonar técnico.
+- Educar antes de vender: en Colombia el barefoot es poco conocido.
+- Emojis con moderación (👋 🦶 🏋️ 🎁 👣), uno por idea como máximo.
+- Siempre: logo arriba, frase de marca "El pie no necesita más tecnología. Necesita libertad.",
+  firma "Freddy Medina · Fisioterapeuta · Fundador de FProject", logo inverso en el pie
+  y el aviso "El contenido tiene fines educativos y no reemplaza una valoración profesional".
+- Invitar a responder el correo ("Responde este correo y te leo personalmente").
+- Enlazar solo a páginas publicadas (no a artículos en borrador).
+
+### Correo de bienvenida al newsletter (plantilla lista)
+- Archivo: `correos/bienvenida-newsletter.html` (HTML de correo con logos, colores y tipografías de marca).
+- **Asunto:** Bienvenido a FProject: tus pies te lo van a agradecer 👣
+- **Preheader:** Gracias por unirte. Te cuento qué vas a recibir y por dónde empezar.
+- **Estructura:** logo → franja salvia con título "BIENVENIDO A LA COMUNIDAD FPROJECT" y la frase de marca →
+  saludo y presentación de Freddy → "¿Qué vas a recibir?" (contenido de fisio, ejercicios, ofertas
+  anticipadas) → botón a "¿Qué es el calzado barefoot?" → tarjetas de KIBA Barefoot y separadores →
+  consejo de transición gradual → firma → pie negro con logo inverso y aviso educativo.
+- Sin descuento por ahora. Si Freddy quiere uno (ej. `BIENVENIDA10`), crearlo en Shopify y añadirlo al correo.
+
+### Cómo se activa el envío automático (lo hace Freddy en el admin de Shopify)
+La API no permite crear automatizaciones de marketing, así que se configura a mano:
+1. Admin de Shopify → **Marketing → Automatizaciones** → **Crear automatización**.
+2. Elegir la plantilla **"Dar la bienvenida a nuevos suscriptores"**
+   (disparador: *el cliente se suscribió al marketing por correo*).
+3. Editar el correo del flujo: asunto y preheader de arriba. Si el editor tiene la sección
+   **"Liquid personalizado"/código**, pegar el HTML de `correos/bienvenida-newsletter.html`;
+   si no, armarlo con los bloques del editor usando los mismos textos, logo y colores.
+4. Enviar una prueba al propio correo, revisarla en el celular y **activar** la automatización.
+5. Verificar: suscribirse con un correo de prueba desde la web y confirmar que llega.
+
 ## Pendientes / ideas siguientes
 - [ ] Freddy revisa y publica los 8 borradores.
 - [ ] Decidir nombre del blog (antes de publicar).
@@ -118,9 +173,13 @@ en fascitis plantar).
 - [ ] Posibles artículos nuevos: "pie plano", "ejercicios para fortalecer los pies".
 - [ ] Revisar reposición de inventario en tallas 44 y 45.
 - [ ] Cambiar la zona horaria de la tienda de EDT a Bogotá (COT).
+- [ ] Activar la automatización del correo de bienvenida del newsletter en Shopify.
+- [ ] Decidir si el correo de bienvenida lleva un código de descuento.
 
 ## Historial de sesiones
 - **Sesión inicial:** sistema de SKU aplicado, 8 artículos del blog creados como borrador,
   creación de este `CLAUDE.md`.
 - **2026-09-26:** verificada la conexión con Shopify (OK). Se detectó la zona horaria en EDT.
   Se revisó la rama `claude/shopify-connection-check-3grq00` (sin cambios frente a la rama de trabajo).
+  Se identificaron logos, colores y tipografías del tema, y se creó el correo de bienvenida del
+  newsletter (`correos/bienvenida-newsletter.html`) con su guía de tono y pasos de activación.
