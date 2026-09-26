@@ -15,6 +15,35 @@ de Claude pueda continuar sin volver a explicar el negocio. Idioma de trabajo: *
   Frase de marca: "El pie no necesita más tecnología. Necesita libertad."
 - La conexión de Claude con Shopify (conector MCP) funciona correctamente.
 
+## Datos de la tienda (verificados con `get-shop-info` el 2026-09-26)
+
+| Campo | Valor |
+|---|---|
+| Nombre | fprojectcompany |
+| Dominio | fprojectcompany.com |
+| Email de la tienda | fprojectcompany26@gmail.com |
+| Plan | Basic |
+| Moneda | COP |
+| País | Colombia |
+| Zona horaria | **EDT** (hora del este de EE. UU.) ⚠️ |
+
+- ⚠️ **Zona horaria incorrecta:** la tienda está en EDT y no en hora de Bogotá (COT, UTC-5).
+  Entre abril y noviembre hay 1 hora de diferencia, lo que afecta fechas de pedidos,
+  informes y la hora de publicación programada de los artículos del blog.
+  Se corrige en Shopify → *Configuración → General → Zona horaria*. Pendiente que Freddy lo cambie.
+
+## Repositorio y herramientas de trabajo
+
+- Repositorio GitHub: `freddmedina/claude` (contiene este `CLAUDE.md` como memoria del proyecto).
+- Ramas: `claude/great-brown-6fb6cj` (rama de trabajo actual) y
+  `claude/shopify-connection-check-3grq00` (sesión de verificación de conexión; al
+  2026-09-26 tenía el mismo contenido que la rama de trabajo, commit `9bfc6b4`).
+- Conectores MCP disponibles en las sesiones: **Shopify** (productos, inventario, pedidos,
+  clientes, colecciones, descuentos, analítica y GraphQL Admin para blogs/metafields),
+  **GitHub**, **Claude Docs** y **Higgsfield** (generación de imágenes/video, útil para
+  imágenes de artículos o contenido de redes).
+- Mantener este archivo actualizado al final de cada sesión con lo que se haya hecho.
+
 ## Productos
 
 ### 1. KIBA PROJECT - BAREFOOT (zapatos)
@@ -88,3 +117,10 @@ en fascitis plantar).
 - [ ] Decidir si traducir colores de variantes (Green/Yellow/Black → Verde/Amarillo/Negro).
 - [ ] Posibles artículos nuevos: "pie plano", "ejercicios para fortalecer los pies".
 - [ ] Revisar reposición de inventario en tallas 44 y 45.
+- [ ] Cambiar la zona horaria de la tienda de EDT a Bogotá (COT).
+
+## Historial de sesiones
+- **Sesión inicial:** sistema de SKU aplicado, 8 artículos del blog creados como borrador,
+  creación de este `CLAUDE.md`.
+- **2026-09-26:** verificada la conexión con Shopify (OK). Se detectó la zona horaria en EDT.
+  Se revisó la rama `claude/shopify-connection-check-3grq00` (sin cambios frente a la rama de trabajo).
