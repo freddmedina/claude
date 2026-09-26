@@ -174,7 +174,16 @@ en fascitis plantar).
 - Sin descuento por ahora. Si Fredd quiere uno (ej. `BIENVENIDA10`), crearlo en Shopify y añadirlo al correo.
 
 ### Cómo se activa el envío automático (lo hace Fredd en el admin de Shopify)
-La API no permite crear automatizaciones de marketing, así que se configura a mano:
+- **Claude no puede enviar correos de marketing ni crear o activar automatizaciones:** la API de
+  Shopify (y el conector) no lo permiten, y no hay un permiso que se pueda dar para eso.
+  Tampoco hace falta: una vez activada, **Shopify envía el correo sola** a cada nuevo suscriptor.
+- Reparto de tareas: Claude redacta y ajusta el contenido (HTML/textos en este repo), revisa los
+  suscriptores y, cuando la automatización ya existe, puede comprobar que aparece como actividad de
+  marketing. Fredd pega el contenido en el editor de Shopify y la activa.
+- Si algún día se quiere que Claude controle los envíos, se necesitaría una plataforma con API
+  (p. ej. Klaviyo) y un conector para ella en las sesiones; hoy no está disponible.
+
+Pasos (la API no permite crear automatizaciones de marketing, así que se configura a mano):
 1. Admin de Shopify → **Marketing → Automatizaciones** → **Crear automatización**.
 2. Elegir la plantilla **"Dar la bienvenida a nuevos suscriptores"**
    (disparador: *el cliente se suscribió al marketing por correo*).
