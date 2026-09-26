@@ -183,7 +183,16 @@ en fascitis plantar).
 - Si algún día se quiere que Claude controle los envíos, se necesitaría una plataforma con API
   (p. ej. Klaviyo) y un conector para ella en las sesiones; hoy no está disponible.
 
+- ⚠️ Al 2026-09-26 **la app Shopify Messaging (antes Shopify Email) NO estaba instalada**; por eso Fredd
+  no veía la sección. Apps instaladas: Flow, Checkout Mercado Pago CO, Mercado Pago Tarjetas CO,
+  BOOSTER SEO, Judge.me Reviews, Envia Shipping and Fulfillment, Shopify Claude Connector App.
+- Enlaces directos: app https://apps.shopify.com/shopify-email ·
+  Marketing https://admin.shopify.com/store/fprojectcompany/marketing ·
+  Automatizaciones https://admin.shopify.com/store/fprojectcompany/marketing/automations
+  (dominio interno: `fprojectcompany.myshopify.com`). Mejor hacerlo desde computador.
+
 Pasos (la API no permite crear automatizaciones de marketing, así que se configura a mano):
+0. Instalar **Shopify Messaging** (gratis) desde el enlace de arriba.
 1. Admin de Shopify → **Marketing → Automatizaciones** → **Crear automatización**.
 2. Elegir la plantilla **"Dar la bienvenida a nuevos suscriptores"**
    (disparador: *el cliente se suscribió al marketing por correo*).
