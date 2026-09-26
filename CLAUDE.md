@@ -177,9 +177,12 @@ en fascitis plantar).
 - **Claude no puede enviar correos de marketing ni crear o activar automatizaciones:** la API de
   Shopify (y el conector) no lo permiten, y no hay un permiso que se pueda dar para eso.
   Tampoco hace falta: una vez activada, **Shopify envía el correo sola** a cada nuevo suscriptor.
-- Reparto de tareas: Claude redacta y ajusta el contenido (HTML/textos en este repo), revisa los
-  suscriptores y, cuando la automatización ya existe, puede comprobar que aparece como actividad de
-  marketing. Fredd pega el contenido en el editor de Shopify y la activa.
+- Reparto de tareas: Claude redacta y ajusta el contenido (HTML/textos en este repo) y revisa los
+  suscriptores. Fredd pega el contenido en el editor de Shopify y la activa.
+- ✅ **2026-09-26: Fredd dejó armado el correo de bienvenida en Shopify Messaging** pegando
+  `correos/bienvenida-newsletter-shopify.html` en la sección de código.
+- La consulta `marketingActivities` de la API devolvió una lista vacía después de activarla, así que la
+  automatización **no se puede verificar desde la API**; la prueba real es suscribirse desde la web.
 - Si algún día se quiere que Claude controle los envíos, se necesitaría una plataforma con API
   (p. ej. Klaviyo) y un conector para ella en las sesiones; hoy no está disponible.
 
@@ -223,7 +226,8 @@ Pasos (la API no permite crear automatizaciones de marketing, así que se config
 - [ ] Posibles artículos nuevos: "pie plano", "ejercicios para fortalecer los pies".
 - [ ] Revisar reposición de inventario en tallas 44 y 45.
 - [ ] Cambiar la zona horaria de la tienda de EDT a Bogotá (COT).
-- [ ] Activar la automatización del correo de bienvenida del newsletter en Shopify.
+- [x] Activar la automatización del correo de bienvenida (Fredd la configuró el 2026-09-26).
+- [ ] Confirmar con una suscripción de prueba desde la web que el correo de bienvenida llega bien.
 - [ ] Decidir si el correo de bienvenida lleva un código de descuento.
 - [x] Cambiar el autor de los 8 borradores a "Fredd Medina".
 - [x] Corregir el logo a "THERAPY".
@@ -239,3 +243,4 @@ Pasos (la API no permite crear automatizaciones de marketing, así que se config
   newsletter (`correos/bienvenida-newsletter.html`) con su guía de tono y pasos de activación.
   Correcciones de Fredd: nombre "Fredd Medina", 13 años pasando consulta, mención de la plantilla
   de transición de los KIBA, y logo oficial (PDF) convertido a PNG y subido a Shopify.
+  Se instaló Shopify Messaging y Fredd armó el correo de bienvenida con la versión "solo contenido" del HTML.
