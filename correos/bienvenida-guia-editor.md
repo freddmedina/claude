@@ -9,8 +9,12 @@ clic en el paso **Enviar correo de marketing** → **Editar correo**.
 
 ## Opción rápida (si el editor tiene sección de código)
 Si al pulsar **Agregar sección** aparece **"Liquid personalizado"** / **"Custom Liquid"** / **"HTML"**:
-borra las secciones de la plantilla, agrega esa sección y pega el HTML completo de
-`correos/bienvenida-newsletter.html`. Luego ve directo a **Probar y activar**.
+borra las secciones de la plantilla, agrega esa sección y pega el contenido de
+**`correos/bienvenida-newsletter-shopify.html`** (versión "solo contenido": sin `<html>`, `<head>`,
+`<body>`, comentarios ni fuentes externas, con todos los estilos en línea).
+⚠️ No pegar `bienvenida-newsletter.html` (documento completo): el editor descarta la cabecera y el
+cuerpo y el diseño se pierde (le pasó a Fredd el 2026-09-26).
+Luego ve directo a **Probar y activar**.
 
 ## Opción por bloques
 

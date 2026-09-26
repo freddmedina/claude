@@ -197,7 +197,8 @@ Pasos (la API no permite crear automatizaciones de marketing, así que se config
 2. Elegir la plantilla **"Dar la bienvenida a nuevos suscriptores"**
    (disparador: *el cliente se suscribió al marketing por correo*).
 3. Editar el correo del flujo: asunto y preheader de arriba. Si el editor tiene la sección
-   **"Liquid personalizado"/código**, pegar el HTML de `correos/bienvenida-newsletter.html`;
+   **"Liquid personalizado"/código**, pegar `correos/bienvenida-newsletter-shopify.html` (versión solo
+   contenido; el documento completo `bienvenida-newsletter.html` pierde el diseño al pegarlo en el editor);
    si no, armarlo con los bloques del editor usando los mismos textos, logo y colores.
 4. Enviar una prueba al propio correo, revisarla en el celular y **activar** la automatización.
 5. Verificar: suscribirse con un correo de prueba desde la web y confirmar que llega.
