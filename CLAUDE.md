@@ -114,6 +114,13 @@ en fascitis plantar).
 - Plan de prelanzamiento (29 sep a 14 oct) con 4 carruseles, 2 Reels de separadores, historias
   y plantillas de DM: `contenido/plan-prelanzamiento-instagram.md`.
   Llamados: "Comenta PREVENTA" (lista de espera) y "Comenta SEPARADOR".
+- **Carruseles diseñados** (4 carruseles, 30 slides PNG 1080×1350) en `contenido/carruseles/`:
+  01 ejercicios de pies · 02 barefoot vs convencional · 03 juanetes · 04 transición.
+  Se generan con `python3 contenido/carruseles/generar.py && node contenido/carruseles/render.js`
+  (textos en `generar.py`; fuentes Bayon + Instrument Sans locales; paleta lima/negro/crema/rosa-naranja;
+  recortes del separador en `_img/`). Para cambiar un texto: editar `generar.py` y volver a correr.
+- Prompts de video para Higgsfield (2): `contenido/prompts-videos-separadores.md`.
+  Costos: Seedance 2.0 fast 15 créditos / Seedance 2.5 42 créditos por video de 6 s a 720p.
 - Pendiente: diseñar la estrategia de campaña del lanzamiento.
 
 ## Instagram @fproject_at — diagnóstico (27/09/2026, a partir de pantallazos)
