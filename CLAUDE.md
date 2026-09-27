@@ -105,6 +105,17 @@ en fascitis plantar).
   Instagram ni descargar imágenes (bloqueo de red); hay que subir las artes al chat
   o a Higgsfield para trabajarlas.
 
+## Lanzamiento
+
+- **Lanzamiento con preventa: 15 de octubre de 2026.** La web fprojectcompany.com aún no está
+  abierta al público (por eso la bio apunta al Linktree personal por ahora).
+- Mucha gente ya conoce los zapatos. Antes del lanzamiento, la idea es activar la cuenta
+  para ganar seguidores con Reels cortos y carruseles educativos.
+- Plan de prelanzamiento (29 sep a 14 oct) con 4 carruseles, 2 Reels de separadores, historias
+  y plantillas de DM: `contenido/plan-prelanzamiento-instagram.md`.
+  Llamados: "Comenta PREVENTA" (lista de espera) y "Comenta SEPARADOR".
+- Pendiente: diseñar la estrategia de campaña del lanzamiento.
+
 ## Instagram @fproject_at — diagnóstico (27/09/2026, a partir de pantallazos)
 
 **Perfil**
@@ -155,7 +166,8 @@ en fascitis plantar).
 - [ ] Decidir si traducir colores de variantes (Green/Yellow/Black → Verde/Amarillo/Negro).
 - [ ] Posibles artículos nuevos: "pie plano", "ejercicios para fortalecer los pies".
 - [ ] Revisar reposición de inventario en tallas 44 y 45.
-- [ ] Instagram: cambiar enlace de bio a la tienda, categoría a "Marca de ropa/calzado", reescribir bio.
+- [ ] Instagram: al abrir la web (15 oct) cambiar enlace de bio a la tienda; ya: categoría a "Marca de ropa/calzado", reescribir bio.
 - [ ] Instagram: pasar copys a español y definir nombre único del zapato (KIBA vs Infinity).
 - [ ] Instagram: crear destacadas (Qué es barefoot, Tallas, Transición, Opiniones, Envíos).
 - [ ] Unificar paleta web + Instagram.
+- [ ] Estrategia de campaña de lanzamiento (preventa 15 oct).
