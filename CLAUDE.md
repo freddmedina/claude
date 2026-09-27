@@ -93,6 +93,12 @@ en fascitis plantar).
   - Dorado arena `#D3B571` (bloque destacado)
   - Naranja suave `#FFAA62` y mostaza `#FDC656` (acentos)
   - Verde grisáceo `#68807E` (botón secundario)
+- Paleta real de Instagram (distinta a la web, más "street/energía"): verde lima neón `#B8F03C`,
+  degradados rosa-magenta `#F45BC6` → naranja `#FF9A4A`, morado, fotos en blanco y negro y fondo negro.
+  Ilustraciones estilo cartoon, titulares grandes en mayúsculas.
+- Videos de separadores (Higgsfield) con fondo cambiado en `contenido/videos-separadores/`
+  (versiones lima, rosa-naranja y salvia). Se hizo recortando el fondo gris con código, sin gastar
+  créditos; editarlos con Seedance 2.5 costaba 46 créditos por video a 720p.
 - Instagram: **@fproject_at** (https://www.instagram.com/fproject_at/). Objetivo actual:
   crecimiento orgánico antes de invertir en ads; en el lanzamiento habrá más video.
 - Higgsfield: plan Plus (56 créditos al 27/09/2026). Desde Claude no se puede abrir
