@@ -82,6 +82,23 @@ en fascitis plantar).
   desde los ya publicados no funcionan.
 - Reemplazar imágenes por fotos propias por tema cuando sea posible y añadir anécdotas clínicas.
 
+## Identidad visual (tema Shopify "Tinker")
+
+- Tipografías: títulos **Bayon**, texto **Instrument Sans**, acento **Radio Canada Big**.
+- Paleta de la web:
+  - Negro `#000000` / Blanco `#FFFFFF` (base, texto y botones hover)
+  - Verde salvia `#C3CCA6` (botón principal, color protagonista)
+  - Verde oliva `#82A31A` (hover de enlaces)
+  - Crema claro `#FAF9F1` y arena `#F1EDE7` (fondos cálidos)
+  - Dorado arena `#D3B571` (bloque destacado)
+  - Naranja suave `#FFAA62` y mostaza `#FDC656` (acentos)
+  - Verde grisáceo `#68807E` (botón secundario)
+- Instagram: **@fproject_at** (https://www.instagram.com/fproject_at/). Objetivo actual:
+  crecimiento orgánico antes de invertir en ads; en el lanzamiento habrá más video.
+- Higgsfield: plan Plus (56 créditos al 27/09/2026). Desde Claude no se puede abrir
+  Instagram ni descargar imágenes (bloqueo de red); hay que subir las artes al chat
+  o a Higgsfield para trabajarlas.
+
 ## Pendientes / ideas siguientes
 - [ ] Freddy revisa y publica los 8 borradores.
 - [ ] Decidir nombre del blog (antes de publicar).
