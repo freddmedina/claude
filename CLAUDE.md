@@ -26,12 +26,9 @@ de Claude pueda continuar sin volver a explicar el negocio. Idioma de trabajo: *
 | Plan | Basic |
 | Moneda | COP |
 | País | Colombia |
-| Zona horaria | **EDT** (hora del este de EE. UU.) ⚠️ |
+| Zona horaria | **America/Bogota (GMT-5)** ✅ (corregida el 2026-09-27; antes estaba en EDT) |
 
-- ⚠️ **Zona horaria incorrecta:** la tienda está en EDT y no en hora de Bogotá (COT, UTC-5).
-  Entre abril y noviembre hay 1 hora de diferencia, lo que afecta fechas de pedidos,
-  informes y la hora de publicación programada de los artículos del blog.
-  Se corrige en Shopify → *Configuración → General → Zona horaria*. Pendiente que Fredd lo cambie.
+- Dirección de la tienda (aparece en el pie de los correos): Cra 15 #118-41, 301, Bogotá DC.
 
 ## Repositorio y herramientas de trabajo
 
@@ -147,7 +144,7 @@ en fascitis plantar).
 ## Correos y newsletter
 
 - En la web hay un formulario de newsletter ("ofertas e información"). Los suscriptores quedan
-  como clientes con `email_marketing_state: subscribed`. Al 2026-09-26 había **1 suscriptor**.
+  como clientes con `email_marketing_state: subscribed`. Al 2026-09-27 había **5 suscriptores**.
 - Se envía desde Shopify Messaging (Shopify Email), con el remitente de la tienda
   (fprojectcompany26@gmail.com).
 
@@ -183,6 +180,14 @@ en fascitis plantar).
   `correos/bienvenida-newsletter-shopify.html` en la sección de código.
 - La consulta `marketingActivities` de la API devolvió una lista vacía después de activarla, así que la
   automatización **no se puede verificar desde la API**; la prueba real es suscribirse desde la web.
+- ✅ **Probado el 2026-09-27:** Fredd se suscribió con varios correos y llega bien; el diseño se ve completo
+  (se revisó el .eml de prueba). Shopify añade debajo su pie con dirección, "Darse de baja" y © 2026.
+- El correo sale desde `store+100464460145@m.shopifyemail.com` con respuesta a fprojectcompany26@gmail.com,
+  porque un remitente @gmail.com no se puede autenticar. DKIM/SPF/DMARC pasan.
+- **Llega a la pestaña Promociones de Gmail.** Es lo normal para correos de marketing (Gmail los clasifica
+  así) y no es spam. Mejoras posibles: (1) remitente con dominio propio (p. ej. hola@fprojectcompany.com)
+  autenticado en Shopify, (2) pedir en el correo que muevan el mensaje a "Principal" o agreguen el
+  remitente a contactos, (3) correos más de texto y con menos enlaces/productos. Ninguna lo garantiza.
 - Si algún día se quiere que Claude controle los envíos, se necesitaría una plataforma con API
   (p. ej. Klaviyo) y un conector para ella en las sesiones; hoy no está disponible.
 
@@ -240,10 +245,10 @@ Pasos (la API no permite crear automatizaciones de marketing, así que se config
 - [ ] Decidir si traducir colores de variantes (Green/Yellow/Black → Verde/Amarillo/Negro).
 - [ ] Posibles artículos nuevos: "pie plano", "ejercicios para fortalecer los pies".
 - [ ] Revisar reposición de inventario en tallas 44 y 45.
-- [ ] Cambiar la zona horaria de la tienda de EDT a Bogotá (COT). La API no lo permite: lo hace Fredd en
-  Configuración → General → Valores predeterminados de la tienda → Zona horaria → "(GMT-05:00) Bogotá".
+- [x] Cambiar la zona horaria de la tienda a Bogotá (verificado por API el 2026-09-27).
 - [x] Activar la automatización del correo de bienvenida (Fredd la configuró el 2026-09-26).
-- [ ] Confirmar con una suscripción de prueba desde la web que el correo de bienvenida llega bien.
+- [x] Confirmar con una suscripción de prueba que el correo de bienvenida llega bien (2026-09-27).
+- [ ] Decidir si se configura un remitente con dominio propio (@fprojectcompany.com).
 - [ ] Decidir si el correo de bienvenida lleva un código de descuento.
 - [x] Cambiar el autor de los 8 borradores a "Fredd Medina".
 - [x] Corregir el logo a "THERAPY".
@@ -261,3 +266,5 @@ Pasos (la API no permite crear automatizaciones de marketing, así que se config
   de transición de los KIBA, y logo oficial (PDF) convertido a PNG y subido a Shopify.
   Se instaló Shopify Messaging y Fredd armó el correo de bienvenida con la versión "solo contenido" del HTML.
   Autor del artículo publicado cambiado a Fredd Medina. Plantilla de correo "Nuevo artículo" creada.
+- **2026-09-27:** zona horaria corregida a Bogotá (verificada). Correo de bienvenida probado con éxito
+  (llega a Promociones en Gmail). 5 suscriptores.
