@@ -105,9 +105,57 @@ en fascitis plantar).
   Instagram ni descargar imágenes (bloqueo de red); hay que subir las artes al chat
   o a Higgsfield para trabajarlas.
 
+## Instagram @fproject_at — diagnóstico (27/09/2026, a partir de pantallazos)
+
+**Perfil**
+- 24 publicaciones · 702 seguidores · 684 seguidos (relación casi 1:1, se lee como "sígueme y te sigo").
+- Nombre: "Fproject® | Barefoot" · Categoría: "Sitio web de salud y bienestar".
+- Bio: "by @freddmedinaft (fisioterapeuta) / Una marca creada para devolverle vida a tus pies 🦶 /
+  Mira nuestros productos aquí ⬇️".
+- Enlace: `linktr.ee/freddmedinaft` (el Linktree personal de Freddy, NO la tienda) + Threads.
+- Destacadas: solo 1 ("espaciadores").
+- Cuenta personal de Freddy: @freddmedinaft.
+
+**Contenido publicado (cuadrícula)**
+- Educativos: "Datos sobre tus pies que nadie te contó", "3 mitos sobre el barefoot",
+  "principios de percepción sensorial", "Tus pies nacen así", "La industria del calzado te mintió",
+  "Tu cuerpo envía mensajes a través de cada pisada", "Ellos quieren que no sientas nada /
+  nosotros queremos que sientas todo", "La verdad sobre el grounding".
+- Personas: Reel "El origen de FProject" (Freddy), Reel "Conoce Infinity" (otra persona).
+- Ilustraciones estilo cartoon (zapatos verdes, corredora, personaje con pie grande).
+- Producto: foto de cajas F Movement con separadores.
+- Varios copys en inglés: "Barefoot isn't a trend…", "Never done being obsessed with your feet",
+  "Don't be the last to wake up", "Human evolution 2026".
+- Estética: verde lima neón, degradados rosa/magenta/naranja, morado, fotos en blanco y negro,
+  fondo negro, titulares grandes en mayúsculas.
+
+**Métricas de referencia — post "La verdad sobre el grounding" (carrusel ilustrado)**
+| Métrica | Valor |
+|---|---|
+| Visualizaciones | 512 (60,4 % seguidores / 39,6 % no seguidores) |
+| Origen | Inicio 299 · Otro origen 171 · Perfil 42 |
+| Espectadores (cuentas alcanzadas) | 254 (~36 % de los seguidores) |
+| Interacciones | 25 → 17 me gusta · 1 compartido · 0 comentarios · 0 guardados |
+| Cuentas con interacciones | 17 |
+| Actividad en el perfil | 6 → 5 visitas · 0 toques en enlace · 1 seguidor nuevo |
+
+**Problemas detectados**
+1. 0 guardados y 0 comentarios: el contenido gusta pero no se guarda ni genera conversación.
+2. 0 toques en el enlace: la bio manda al Linktree personal, no a fprojectcompany.com.
+3. Mezcla de inglés y español; público colombiano.
+4. Poco producto real en uso (KIBA casi no aparece puesto) y poca cara de Freddy como fisio.
+5. Textos cortados en la cuadrícula (recorte 3:4).
+6. Paleta de Instagram distinta a la web.
+7. Nombre del zapato inconsistente: "Infinity" en IG vs "KIBA PROJECT" en la tienda.
+8. Temas como "grounding" tienen poca evidencia: cuidar la credibilidad de fisioterapeuta.
+
 ## Pendientes / ideas siguientes
 - [ ] Freddy revisa y publica los 8 borradores.
 - [ ] Decidir nombre del blog (antes de publicar).
 - [ ] Decidir si traducir colores de variantes (Green/Yellow/Black → Verde/Amarillo/Negro).
 - [ ] Posibles artículos nuevos: "pie plano", "ejercicios para fortalecer los pies".
 - [ ] Revisar reposición de inventario en tallas 44 y 45.
+- [ ] Instagram: cambiar enlace de bio a la tienda, categoría a "Marca de ropa/calzado", reescribir bio.
+- [ ] Instagram: pasar copys a español y definir nombre único del zapato (KIBA vs Infinity).
+- [ ] Instagram: crear destacadas (Qué es barefoot, Tallas, Transición, Opiniones, Envíos).
+- [ ] Unificar paleta web + Instagram.
