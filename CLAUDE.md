@@ -248,7 +248,8 @@ Pasos (la API no permite crear automatizaciones de marketing, así que se config
 - [x] Cambiar la zona horaria de la tienda a Bogotá (verificado por API el 2026-09-27).
 - [x] Activar la automatización del correo de bienvenida (Fredd la configuró el 2026-09-26).
 - [x] Confirmar con una suscripción de prueba que el correo de bienvenida llega bien (2026-09-27).
-- [ ] Decidir si se configura un remitente con dominio propio (@fprojectcompany.com).
+- [ ] Crear remitente con dominio propio (@fprojectcompany.com) — Fredd lo hará más adelante; Claude puede guiar la autenticación.
+- [ ] Preventa: cuando Fredd la lance, preparar correo de anuncio y coordinar la publicación de artículos.
 - [ ] Decidir si el correo de bienvenida lleva un código de descuento.
 - [x] Cambiar el autor de los 8 borradores a "Fredd Medina".
 - [x] Corregir el logo a "THERAPY".
@@ -268,3 +269,6 @@ Pasos (la API no permite crear automatizaciones de marketing, así que se config
   Autor del artículo publicado cambiado a Fredd Medina. Plantilla de correo "Nuevo artículo" creada.
 - **2026-09-27:** zona horaria corregida a Bogotá (verificada). Correo de bienvenida probado con éxito
   (llega a Promociones en Gmail). 5 suscriptores.
+  Fredd confirmó que en el correo real el asunto y todo el diseño salen bien (el "[TEST]" era solo de la prueba).
+  Planes de Fredd: crear más adelante el remitente con dominio propio, y publicar los artículos del blog
+  a medida que se lance la **preventa** y demás novedades (no hay fechas aún).
