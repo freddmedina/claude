@@ -90,7 +90,8 @@ en fascitis plantar).
   Verificado por API: idéntico al anterior salvo la fuente de títulos en `config/settings_data.json`.
   Respaldo: tema **"Tinker"** (`192220201329`, sin publicar, con Bayon). También existe "Horizon" sin usar.
   Claude NO puede escribir ni publicar en el tema en vivo (la API lo bloquea): para cambios, duplicar el tema,
-  editar la copia y que Freddy la publique. Hay una actualización del tema (v4.2.0) disponible, sin aplicar.
+  editar la copia y que Freddy la publique. Para archivos grandes: stagedUploadsCreate (FILE, PUT) + subir con curl
+  + themeFilesUpsert con body type URL = resourceUrl (funciona; verificar checksumMd5). Hay una actualización del tema (v4.2.0) disponible, sin aplicar.
 - Paleta de la web:
   - Negro `#000000` / Blanco `#FFFFFF` (base, texto y botones hover)
   - Verde salvia `#C3CCA6` (botón principal, color protagonista)
@@ -170,7 +171,7 @@ en fascitis plantar).
 4. Poco producto real en uso (KIBA casi no aparece puesto) y poca cara de Freddy como fisio.
 5. Textos cortados en la cuadrícula (recorte 3:4).
 6. Paleta de Instagram distinta a la web.
-7. Nombre del zapato inconsistente: "Infinity" en IG vs "KIBA PROJECT" en la tienda.
+7. Nombre del zapato inconsistente: "Infinity" en IG vs "KIBA PROJECT" en la tienda → decidido: **KIBA**.
 8. Temas como "grounding" tienen poca evidencia: cuidar la credibilidad de fisioterapeuta.
 
 ## Pendientes / ideas siguientes
@@ -180,9 +181,16 @@ en fascitis plantar).
 - [ ] Posibles artículos nuevos: "pie plano", "ejercicios para fortalecer los pies".
 - [ ] Revisar reposición de inventario en tallas 44 y 45.
 - [ ] Instagram: al abrir la web (15 oct) cambiar enlace de bio a la tienda; ya: categoría a "Marca de ropa/calzado", reescribir bio.
-- [ ] Instagram: pasar copys a español y definir nombre único del zapato (KIBA vs Infinity).
+- [ ] Instagram: pasar copys a español; usar siempre KIBA como nombre del zapato.
 - [ ] Instagram: crear destacadas (Qué es barefoot, Tallas, Transición, Opiniones, Envíos).
 - [x] Publicar el tema "Tinker - Bebas Neue" (hecho y verificado el 28/09).
-- [ ] Portada de la web en inglés ("Introducing KIBA / Move freely. Live infinity."): pasar a español y decidir KIBA vs Infinity.
+- [x] **Nombre del zapato: KIBA** (decidido 28/09; ya no usar "Infinity" como nombre del modelo).
+- [ ] Publicar el tema **"Tinker - KIBA en español"** (`gid://shopify/OnlineStoreTheme/198780649841`): copia del tema
+  en vivo con portada y pie de página en español. Cambios: "Introducing KIBA"→"Conoce KIBA";
+  "MOVE FREELY. LIVE INFINITY."(×2)→"MUÉVETE LIBRE. VIVE SIN LÍMITES."; "Bestsellers"→"Los más vendidos";
+  "Shop Now"(×2)→"Comprar ahora"; footer: newsletter→"Únete a la comunidad FProject: novedades, ofertas y acceso
+  anticipado.", "Sign up"→"Suscribirme", "Shop/Help/About"→"Tienda/Ayuda/Nosotros", "Stay Connected"→"Síguenos".
+- [ ] Decidir nombres de colorway en la sección "Tres imágenes con texto" (PHANTON / INFINITY / VANILLA VIBE)
+  y "Rising Yellow"; "PHANTON" parece error de "PHANTOM". Los colores en Shopify son Green/Yellow/Black.
 - [ ] Unificar paleta web + Instagram.
 - [ ] Estrategia de campaña de lanzamiento (preventa 15 oct).
