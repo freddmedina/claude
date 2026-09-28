@@ -22,6 +22,9 @@ de Claude pueda continuar sin volver a explicar el negocio. Idioma de trabajo: *
 - Precio: 480.000 COP · Estado: activo
 - Características: suela flexible, cero drop, diseño anatómico, puntera ancha.
   Para gimnasio y uso diario.
+- **Nombres de color (decisión de Freddy, NO cambiar):** **PHANTON** = negro · **INFINITY** = verde ·
+  **VANILLA VIBE** = amarillo (en la web también aparece "Rising Yellow"). "Infinity" es el nombre del color verde,
+  no del modelo: el modelo se llama **KIBA**. "PHANTON" se escribe así a propósito.
 - 30 variantes: tallas **36 a 45** × colores **Green / Yellow / Black**
   (los nombres de color están en inglés en Shopify; está pendiente decidir si se traducen).
 - Inventario bajo en tallas 44 (5 por color) y 45 (4 por color).
@@ -190,7 +193,5 @@ en fascitis plantar).
   "MOVE FREELY. LIVE INFINITY."(×2)→"MUÉVETE LIBRE. VIVE SIN LÍMITES."; "Bestsellers"→"Los más vendidos";
   "Shop Now"(×2)→"Comprar ahora"; footer: newsletter→"Únete a la comunidad FProject: novedades, ofertas y acceso
   anticipado.", "Sign up"→"Suscribirme", "Shop/Help/About"→"Tienda/Ayuda/Nosotros", "Stay Connected"→"Síguenos".
-- [ ] Decidir nombres de colorway en la sección "Tres imágenes con texto" (PHANTON / INFINITY / VANILLA VIBE)
-  y "Rising Yellow"; "PHANTON" parece error de "PHANTOM". Los colores en Shopify son Green/Yellow/Black.
 - [ ] Unificar paleta web + Instagram.
 - [ ] Estrategia de campaña de lanzamiento (preventa 15 oct).
