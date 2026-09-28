@@ -17,7 +17,8 @@ de Claude pueda continuar sin volver a explicar el negocio. Idioma de trabajo: *
 
 ## Productos
 
-### 1. KIBA PROJECT - BAREFOOT (zapatos)
+### 1. KIBA - BAREFOOT (zapatos)
+- Título en Shopify cambiado de "KIBA PROJECT - BAREFOOT" a **"KIBA - BAREFOOT"** el 28/09 (handle `barefoot` sin cambios).
 - URL: `/products/barefoot` · ID: `gid://shopify/Product/15506559893873`
 - Precio: 480.000 COP · Estado: activo
 - Características: suela flexible, cero drop, diseño anatómico, puntera ancha.
@@ -51,9 +52,8 @@ Formato: `FP-{PRODUCTO}-{COLOR/MATERIAL}-{TALLA}`
 
 ## Blog y SEO
 
-- Blog de Shopify: **"News"** (`gid://shopify/Blog/124274704753`), URLs `/blogs/news/{handle}`.
-  Pendiente: si se quiere renombrar (ej. "Blog" o "Aprende barefoot"), hacerlo ANTES de publicar
-  los borradores para no romper los enlaces internos.
+- Blog de Shopify: título **"Artículos"** (antes "News", cambiado 28/09) (`gid://shopify/Blog/124274704753`).
+  El handle sigue siendo `news` → URLs `/blogs/news/{handle}` y enlaces internos intactos. NO cambiar el handle.
 - Artículo ya **publicado** (previo): "¿Qué es el calzado barefoot?" — `que-es-el-calzado-barefoot`.
 
 ### 8 artículos creados como BORRADOR (pendientes de revisión de Freddy)
@@ -179,7 +179,7 @@ en fascitis plantar).
 
 ## Pendientes / ideas siguientes
 - [ ] Freddy revisa y publica los 8 borradores.
-- [ ] Decidir nombre del blog (antes de publicar).
+- [x] Nombre del blog: "Artículos" (handle `news` se mantiene).
 - [ ] Decidir si traducir colores de variantes (Green/Yellow/Black → Verde/Amarillo/Negro).
 - [ ] Posibles artículos nuevos: "pie plano", "ejercicios para fortalecer los pies".
 - [ ] Revisar reposición de inventario en tallas 44 y 45.
@@ -193,5 +193,8 @@ en fascitis plantar).
   "MOVE FREELY. LIVE INFINITY."(×2)→"MUÉVETE LIBRE. VIVE SIN LÍMITES."; "Bestsellers"→"Los más vendidos";
   "Shop Now"(×2)→"Comprar ahora"; footer: newsletter→"Únete a la comunidad FProject: novedades, ofertas y acceso
   anticipado.", "Sign up"→"Suscribirme", "Shop/Help/About"→"Tienda/Ayuda/Nosotros", "Stay Connected"→"Síguenos".
+  Ficha de producto (`templates/product.json`, aplica a los 2 productos): "Move Friendly"→"Libertad de movimiento",
+  "Daily Use"→"Uso diario", "Anatomic Desing"→"Diseño anatómico", "Quality materials"→"Materiales de calidad",
+  "Shop The Full Collection"→"Compra sugerida".
 - [ ] Unificar paleta web + Instagram.
 - [ ] Estrategia de campaña de lanzamiento (preventa 15 oct).
