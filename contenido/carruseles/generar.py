@@ -27,7 +27,7 @@ body{background:var(--bg);color:var(--fg);font-family:'Instrument Sans',sans-ser
 .foot{position:absolute;bottom:56px;left:90px;right:90px;display:flex;justify-content:space-between;align-items:center;
       font-size:26px;font-weight:600}
 .wrap{z-index:2;position:absolute;left:90px;right:90px;top:170px;bottom:150px;display:flex;flex-direction:column;justify-content:center}
-h1{font-family:'Bayon',sans-serif;font-weight:400;text-transform:uppercase;line-height:.9;letter-spacing:.005em}
+h1{font-family:'Bebas Neue',sans-serif;font-weight:400;text-transform:uppercase;line-height:.95;letter-spacing:.01em}
 .chip{display:inline-block;background:var(--chip_bg);color:var(--chip_fg);font-weight:700;font-size:30px;
       padding:12px 26px;border-radius:100px;letter-spacing:.06em;text-transform:uppercase}
 p{font-size:42px;line-height:1.28;color:var(--sub)}
@@ -44,7 +44,7 @@ p b{color:var(--fg)}
 .lista{list-style:none;margin-top:36px;display:flex;flex-direction:column;gap:22px}
 .lista li{font-size:40px;line-height:1.25;padding-left:58px;position:relative;color:var(--sub)}
 .lista li:before{content:'';position:absolute;left:0;top:14px;width:30px;height:30px;border-radius:50%;background:var(--acento)}
-.swipe{font-family:'Bayon',sans-serif;font-size:44px;text-transform:uppercase;letter-spacing:.03em}
+.swipe{font-family:'Bebas Neue',sans-serif;font-size:44px;text-transform:uppercase;letter-spacing:.03em}
 .aviso{font-size:24px;opacity:.75;margin-top:28px}
 """
 

@@ -117,7 +117,7 @@ en fascitis plantar).
 - **Carruseles diseñados** (4 carruseles, 30 slides PNG 1080×1350) en `contenido/carruseles/`:
   01 ejercicios de pies · 02 barefoot vs convencional · 03 juanetes · 04 transición.
   Se generan con `python3 contenido/carruseles/generar.py && node contenido/carruseles/render.js`
-  (textos en `generar.py`; fuentes Bayon + Instrument Sans locales; paleta lima/negro/crema/rosa-naranja;
+  (textos en `generar.py`; fuentes Bebas Neue (títulos) + Instrument Sans locales; Bayon NO tiene tildes ni ñ; paleta lima/negro/crema/rosa-naranja;
   recortes del separador en `_img/`). Para cambiar un texto: editar `generar.py` y volver a correr.
 - Prompts de video para Higgsfield (2): `contenido/prompts-videos-separadores.md`.
   Costos: Seedance 2.0 fast 15 créditos / Seedance 2.5 42 créditos por video de 6 s a 720p.
