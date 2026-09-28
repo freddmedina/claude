@@ -7,7 +7,7 @@ de Claude pueda continuar sin volver a explicar el negocio. Idioma de trabajo: *
 
 - **Tienda Shopify:** fprojectcompany — dominio https://fprojectcompany.com
 - **País / moneda / plan:** Colombia · COP · plan Basic
-- **Fundador:** Freddy Medina, fisioterapeuta especializado en pie y movimiento
+- **Fundador:** Freddy Medina (firma pública en contenido: **"Fredd Medina"**), fisioterapeuta especializado en pie y movimiento
   (más de 6 años de práctica clínica y más de una década en entrenamiento funcional).
 - **Enfoque:** calzado **barefoot** y salud del pie pensados desde la fisioterapia.
   En Colombia el barefoot es poco conocido, así que el contenido educativo es clave.

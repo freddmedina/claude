@@ -83,7 +83,7 @@ CARRUSELES = {
         imagen=("separador-flotando", "right:-60px;bottom:40px;width:520px;transform:rotate(18deg)"))),
     ("crema", "numero", dict(n="4", titulo="Talones lentos", texto="Sube en 2 seg, sostén 2 y baja en 4. Peso sobre el **dedo gordo**.", rep="3 series × 12")),
     ("crema", "numero", dict(n="5", titulo="Descalzo en casa", texto="10 minutos al día sobre superficies variadas. Tu pie **recibe información** en cada paso.", rep="Todos los días")),
-    ("negro", "cta", dict(titulo="4 veces por semana.\n4 semanas.", texto="Y notarás la diferencia.", accion="Guárdalo para tu rutina", firma="Freddy Medina · Fisioterapeuta")),
+    ("negro", "cta", dict(titulo="4 veces por semana.\n4 semanas.", texto="Y notarás la diferencia.", accion="Guárdalo para tu rutina", firma="Fredd Medina · Fisioterapeuta")),
 ],
 "02-barefoot-vs-convencional": [
     ("rosa", "portada", dict(chip="Compara", titulo="Tu zapato\nvs tu pie", sub="**4 diferencias** que nadie\nte explicó.")),
@@ -103,7 +103,7 @@ CARRUSELES = {
     ("lima", "lista", dict(titulo="Qué puedes\nhacer hoy", intro="", items=["Zapatos con **puntera ancha**", "Yoga de dedos", "Separadores **10–20 min** al día", "Fortalece: pie corto y talones"], cierre="",
         imagen=("separador-flotando", "right:-80px;bottom:30px;width:480px;transform:rotate(-20deg)"))),
     ("negro", "texto", dict(titulo="Importante", texto="Ejercicios y separadores ayudan con la **movilidad**, las **molestias** y a que no empeore.\n\n**No borran** un juanete ya formado. Si hay dolor fuerte, consulta a un profesional.")),
-    ("lima", "cta", dict(titulo="Guárdalo y\ncompártelo", texto="con esa persona que siempre\nse queja de sus juanetes.", accion="Envíaselo ahora", firma="Freddy Medina · Fisioterapeuta")),
+    ("lima", "cta", dict(titulo="Guárdalo y\ncompártelo", texto="con esa persona que siempre\nse queja de sus juanetes.", accion="Envíaselo ahora", firma="Fredd Medina · Fisioterapeuta")),
 ],
 "04-transicion-barefoot": [
     ("rosa", "portada", dict(chip="Antes de tu primer par", titulo="El error que\ntodos cometen\nal pasarse\nal barefoot", sub="(y cómo evitarlo)", tam=150)),
