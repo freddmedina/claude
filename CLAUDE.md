@@ -89,9 +89,10 @@ en fascitis plantar).
 
 - Tipografías: títulos **Bebas Neue** (`bebas_neue_n4`), texto **Instrument Sans**, acento **Radio Canada Big**.
   Antes era **Bayon**, que no tiene tildes ni ñ.
-- **Tema publicado (desde 28/09/2026): "Tinker - Bebas Neue"** (`gid://shopify/OnlineStoreTheme/198768656753`).
-  Verificado por API: idéntico al anterior salvo la fuente de títulos en `config/settings_data.json`.
-  Respaldo: tema **"Tinker"** (`192220201329`, sin publicar, con Bayon). También existe "Horizon" sin usar.
+- **Tema publicado (desde 28/09/2026): "Tinker - KIBA en español"** (`gid://shopify/OnlineStoreTheme/198780649841`):
+  Bebas Neue + portada, pie de página y ficha de producto en español (verificado por checksum).
+  Respaldos sin publicar: "Tinker - Bebas Neue" (`198768656753`, textos en inglés) y "Tinker" (`192220201329`, Bayon).
+  También existe "Horizon" sin usar. Se pueden borrar los respaldos después del lanzamiento.
   Claude NO puede escribir ni publicar en el tema en vivo (la API lo bloquea): para cambios, duplicar el tema,
   editar la copia y que Freddy la publique. Para archivos grandes: stagedUploadsCreate (FILE, PUT) + subir con curl
   + themeFilesUpsert con body type URL = resourceUrl (funciona; verificar checksumMd5). Hay una actualización del tema (v4.2.0) disponible, sin aplicar.
@@ -188,7 +189,7 @@ en fascitis plantar).
 - [ ] Instagram: crear destacadas (Qué es barefoot, Tallas, Transición, Opiniones, Envíos).
 - [x] Publicar el tema "Tinker - Bebas Neue" (hecho y verificado el 28/09).
 - [x] **Nombre del zapato: KIBA** (decidido 28/09; ya no usar "Infinity" como nombre del modelo).
-- [ ] Publicar el tema **"Tinker - KIBA en español"** (`gid://shopify/OnlineStoreTheme/198780649841`): copia del tema
+- [x] Publicado el 28/09 (verificado): tema **"Tinker - KIBA en español"** (`gid://shopify/OnlineStoreTheme/198780649841`): copia del tema
   en vivo con portada y pie de página en español. Cambios: "Introducing KIBA"→"Conoce KIBA";
   "MOVE FREELY. LIVE INFINITY."(×2)→"MUÉVETE LIBRE. VIVE SIN LÍMITES."; "Bestsellers"→"Los más vendidos";
   "Shop Now"(×2)→"Comprar ahora"; footer: newsletter→"Únete a la comunidad FProject: novedades, ofertas y acceso
