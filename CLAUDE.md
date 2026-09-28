@@ -24,7 +24,7 @@ de Claude pueda continuar sin volver a explicar el negocio. Idioma de trabajo: *
 - Características: suela flexible, cero drop, diseño anatómico, puntera ancha.
   Para gimnasio y uso diario.
 - **Nombres de color (decisión de Freddy, NO cambiar):** **PHANTON** = negro · **INFINITY** = verde ·
-  **VANILLA VIBE** = amarillo (en la web también aparece "Rising Yellow"). "Infinity" es el nombre del color verde,
+  **VANILLA VIBE** = amarillo ("Rising Yellow" se reemplazó por Vanilla Vibe en la portada el 28/09; no usar "Rising Yellow"). "Infinity" es el nombre del color verde,
   no del modelo: el modelo se llama **KIBA**. "PHANTON" se escribe así a propósito.
 - 30 variantes: tallas **36 a 45** × colores **Green / Yellow / Black**
   (los nombres de color están en inglés en Shopify; está pendiente decidir si se traducen).
@@ -195,6 +195,7 @@ en fascitis plantar).
   anticipado.", "Sign up"→"Suscribirme", "Shop/Help/About"→"Tienda/Ayuda/Nosotros", "Stay Connected"→"Síguenos".
   Ficha de producto (`templates/product.json`, aplica a los 2 productos): "Move Friendly"→"Libertad de movimiento",
   "Daily Use"→"Uso diario", "Anatomic Desing"→"Diseño anatómico", "Quality materials"→"Materiales de calidad",
-  "Shop The Full Collection"→"Compra sugerida".
+  "Shop The Full Collection"→"Compra sugerida". Portada: "RISING YELLOW = LIBERTAD"→"VANILLA VIBE = LIBERTAD"
+  y "Nuestro Rising Yellow…"→"Nuestro Vanilla Vibe…".
 - [ ] Unificar paleta web + Instagram.
 - [ ] Estrategia de campaña de lanzamiento (preventa 15 oct).
