@@ -84,11 +84,13 @@ en fascitis plantar).
 
 ## Identidad visual (tema Shopify "Tinker")
 
-- Tipografías: títulos **Bayon** (tema publicado), texto **Instrument Sans**, acento **Radio Canada Big**.
-  **Bayon no tiene tildes ni ñ** → se reemplaza por **Bebas Neue** (`bebas_neue_n4`, está en la biblioteca de Shopify).
-  Se creó la copia del tema **"Tinker - Bebas Neue"** (`gid://shopify/OnlineStoreTheme/198768656753`, sin publicar)
-  con solo ese cambio en `config/settings_data.json`. Freddy debe revisarla y publicarla
-  (Claude no puede escribir ni publicar en el tema en vivo; la API lo bloquea).
+- Tipografías: títulos **Bebas Neue** (`bebas_neue_n4`), texto **Instrument Sans**, acento **Radio Canada Big**.
+  Antes era **Bayon**, que no tiene tildes ni ñ.
+- **Tema publicado (desde 28/09/2026): "Tinker - Bebas Neue"** (`gid://shopify/OnlineStoreTheme/198768656753`).
+  Verificado por API: idéntico al anterior salvo la fuente de títulos en `config/settings_data.json`.
+  Respaldo: tema **"Tinker"** (`192220201329`, sin publicar, con Bayon). También existe "Horizon" sin usar.
+  Claude NO puede escribir ni publicar en el tema en vivo (la API lo bloquea): para cambios, duplicar el tema,
+  editar la copia y que Freddy la publique. Hay una actualización del tema (v4.2.0) disponible, sin aplicar.
 - Paleta de la web:
   - Negro `#000000` / Blanco `#FFFFFF` (base, texto y botones hover)
   - Verde salvia `#C3CCA6` (botón principal, color protagonista)
@@ -180,6 +182,7 @@ en fascitis plantar).
 - [ ] Instagram: al abrir la web (15 oct) cambiar enlace de bio a la tienda; ya: categoría a "Marca de ropa/calzado", reescribir bio.
 - [ ] Instagram: pasar copys a español y definir nombre único del zapato (KIBA vs Infinity).
 - [ ] Instagram: crear destacadas (Qué es barefoot, Tallas, Transición, Opiniones, Envíos).
-- [ ] Publicar el tema "Tinker - Bebas Neue" (revisar vista previa antes). Ojo: cambios hechos al tema en vivo después del 28/09 no están en la copia.
+- [x] Publicar el tema "Tinker - Bebas Neue" (hecho y verificado el 28/09).
+- [ ] Portada de la web en inglés ("Introducing KIBA / Move freely. Live infinity."): pasar a español y decidir KIBA vs Infinity.
 - [ ] Unificar paleta web + Instagram.
 - [ ] Estrategia de campaña de lanzamiento (preventa 15 oct).
