@@ -1,0 +1,2 @@
+const path=require('path');const {chromium}=require(path.join(require('child_process').execSync('npm root -g').toString().trim(),'playwright'));
+(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1500,height:1410}});await p.goto('file://'+__dirname+'/comparar.html');await p.evaluate(()=>document.fonts.ready);await p.screenshot({path:'/home/user/claude/contenido/carruseles/comparar-tipografias.png',fullPage:true});await b.close();})();
