@@ -70,3 +70,19 @@ no text, no hands, no extra objects.
 - Si la forma del separador sale mal, sube 2 fotos de referencia: una de frente y una de lado.
 - Si el fondo sale "sucio" o con objetos, agrega al final: `plain empty background, nothing else in the scene`.
 - Los modelos no escriben bien texto en español. Pon los textos encima del video en Instagram o en CapCut, no en el prompt.
+
+---
+
+## PROMPT DEL REEL 1 OCT — "Manos + pies" en fondo lima (versión final recomendada)
+
+Basado en el prompt original que generó el video "manos" (ver `CONTEXTO.md` en la rama
+`claude/sleepy-ritchie-ptcpxp`), con el fondo cambiado al lima de Instagram y el producto descrito
+como es en realidad (negro mate, no translúcido).
+
+- Modelo: **Seedance 2.0 · std** · 9:16 · 6 s · 720p · sin audio → ~27 créditos
+  (o Seedance 2.0 fast → 15 créditos).
+- Referencia: imagen del separador `media_id 1046fb41-7b12-4930-9751-94c1532c6349` como *image reference*.
+
+```
+Minimalist premium product commercial, vertical 9:16. The exact black medical-grade silicone toe separators from the reference image, keeping their true shape, matte black color, wavy top edge, five toe loops and proportions. Seamless solid neon lime green studio background (#B8F03C), infinite cyclorama, no props, no text, no logos other than the product's. Shot 1 (0-2s): the pair of toe separators rests on the lime floor, slow push-in, soft diffused top light, subtle soft contact shadow beneath. Shot 2 (2-4s): smooth macro shot, two fingers press and bend the separator to show how soft and flexible the silicone is, then release and it springs back to shape. Shot 3 (4-6s): two clean, well-groomed bare feet standing on the lime background, each wearing a black toe separator, toes naturally spread and relaxed, slow gentle push-in. Clean bright studio lighting, 85mm lens look, shallow depth of field, ultra sharp focus on the product, calm elegant slow motion, energetic sportswear-brand aesthetic. Avoid: clutter, white or gray background, distorted toes, extra toes, deformed product, translucent product, text overlays, watermarks.
+```

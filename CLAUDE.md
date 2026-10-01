@@ -15,6 +15,24 @@ de Claude pueda continuar sin volver a explicar el negocio. Idioma de trabajo: *
   Frase de marca: "El pie no necesita más tecnología. Necesita libertad."
 - La conexión de Claude con Shopify (conector MCP) funciona correctamente.
 
+## ⚠️ Decisiones de marca vigentes (leer antes de tocar la web)
+
+- **Idioma de la web: mitad español, mitad inglés, A PROPÓSITO** (decisión del equipo, 30/09/2026).
+  Se mantienen en inglés: "Introducing KIBA", "MOVE FREELY. LIVE INFINITY.", "Bestsellers", "Shop Now",
+  "Shop The Full Collection", "Move Friendly", "Daily Use", newsletter/footer en inglés, etc.
+  **NO traducir la web al español salvo que Fredd lo pida explícitamente.**
+- **Blog = "BLOGS"** (título del blog en Shopify: "Blogs"; títulos en portada y página del blog: "BLOGS").
+  Menú principal: Barefoot · Separadores de dedos · Quienes somos · **Blogs** (`/blogs/news`). Handle sigue `news`.
+- **Tema publicado: "Tinker - Bebas Neue"** (`198768656753`) desde el 30/09. Es el tema elegido por el equipo.
+  Incluye: Bebas Neue, VANILLA VIBE = LIBERTAD, BLOGS, y en la guía de tallas de los separadores
+  (`blocks/ai_gen_block_12ac997.liquid`) muestra **"TALLA ÚNICA"**.
+  El tema "Tinker - KIBA en español" (`198780649841`) quedó como respaldo sin publicar (textos 100 % en español).
+- Nombre del fundador en todo material: **Fredd Medina** (13 años de consulta).
+- El KIBA **incluye plantilla de transición** (más soporte mientras el pie se adapta; al quitarla, experiencia
+  barefoot completa). Mencionarlo al hablar de transición o presentar el producto.
+- Otras sesiones guardaron contexto en otras ramas: `claude/great-brown-6fb6cj` (CLAUDE.md con logo oficial,
+  newsletter, correos) y `claude/sleepy-ritchie-ptcpxp` (`CONTEXTO.md` con los prompts originales de los videos).
+
 ## Productos
 
 ### 1. KIBA - BAREFOOT (zapatos)
@@ -52,7 +70,7 @@ Formato: `FP-{PRODUCTO}-{COLOR/MATERIAL}-{TALLA}`
 
 ## Blog y SEO
 
-- Blog de Shopify: título **"Artículos"** (antes "News", cambiado 28/09) (`gid://shopify/Blog/124274704753`).
+- Blog de Shopify: título **"Blogs"** (News → Artículos 28/09 → Blogs 30/09) (`gid://shopify/Blog/124274704753`).
   El handle sigue siendo `news` → URLs `/blogs/news/{handle}` y enlaces internos intactos. NO cambiar el handle.
 - Artículo ya **publicado** (previo): "¿Qué es el calzado barefoot?" — `que-es-el-calzado-barefoot`.
 
@@ -89,10 +107,8 @@ en fascitis plantar).
 
 - Tipografías: títulos **Bebas Neue** (`bebas_neue_n4`), texto **Instrument Sans**, acento **Radio Canada Big**.
   Antes era **Bayon**, que no tiene tildes ni ñ.
-- **Tema publicado (desde 28/09/2026): "Tinker - KIBA en español"** (`gid://shopify/OnlineStoreTheme/198780649841`):
-  Bebas Neue + portada, pie de página y ficha de producto en español (verificado por checksum).
-  Respaldos sin publicar: "Tinker - Bebas Neue" (`198768656753`, textos en inglés) y "Tinker" (`192220201329`, Bayon).
-  También existe "Horizon" sin usar. Se pueden borrar los respaldos después del lanzamiento.
+- Tema publicado: ver "Decisiones de marca vigentes" arriba ("Tinker - Bebas Neue", verificado 01/10).
+  Respaldos sin publicar: "Tinker - KIBA en español" (`198780649841`), "Tinker" (`192220201329`, Bayon), "Horizon".
   Claude NO puede escribir ni publicar en el tema en vivo (la API lo bloquea): para cambios, duplicar el tema,
   editar la copia y que Freddy la publique. Para archivos grandes: stagedUploadsCreate (FILE, PUT) + subir con curl
   + themeFilesUpsert con body type URL = resourceUrl (funciona; verificar checksumMd5). Hay una actualización del tema (v4.2.0) disponible, sin aplicar.
@@ -180,16 +196,16 @@ en fascitis plantar).
 
 ## Pendientes / ideas siguientes
 - [ ] Freddy revisa y publica los 8 borradores.
-- [x] Nombre del blog: "Artículos" (handle `news` se mantiene).
+- [x] Nombre del blog: "Blogs" (handle `news` se mantiene).
 - [ ] Decidir si traducir colores de variantes (Green/Yellow/Black → Verde/Amarillo/Negro).
 - [ ] Posibles artículos nuevos: "pie plano", "ejercicios para fortalecer los pies".
 - [ ] Revisar reposición de inventario en tallas 44 y 45.
 - [ ] Instagram: al abrir la web (15 oct) cambiar enlace de bio a la tienda; ya: categoría a "Marca de ropa/calzado", reescribir bio.
-- [ ] Instagram: pasar copys a español; usar siempre KIBA como nombre del zapato.
+- [ ] Instagram: usar siempre KIBA como nombre del zapato (los colores sí pueden ir en inglés: Phanton, Infinity, Vanilla Vibe).
 - [ ] Instagram: crear destacadas (Qué es barefoot, Tallas, Transición, Opiniones, Envíos).
 - [x] Publicar el tema "Tinker - Bebas Neue" (hecho y verificado el 28/09).
 - [x] **Nombre del zapato: KIBA** (decidido 28/09; ya no usar "Infinity" como nombre del modelo).
-- [x] Publicado el 28/09 (verificado): tema **"Tinker - KIBA en español"** (`gid://shopify/OnlineStoreTheme/198780649841`): copia del tema
+- [x] (Reemplazado el 30/09 por la decisión mitad español/mitad inglés) tema **"Tinker - KIBA en español"** (`gid://shopify/OnlineStoreTheme/198780649841`): copia del tema
   en vivo con portada y pie de página en español. Cambios: "Introducing KIBA"→"Conoce KIBA";
   "MOVE FREELY. LIVE INFINITY."(×2)→"MUÉVETE LIBRE. VIVE SIN LÍMITES."; "Bestsellers"→"Los más vendidos";
   "Shop Now"(×2)→"Comprar ahora"; footer: newsletter→"Únete a la comunidad FProject: novedades, ofertas y acceso
