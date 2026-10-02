@@ -15,6 +15,13 @@ de Claude pueda continuar sin volver a explicar el negocio. Idioma de trabajo: *
   Frase de marca: "El pie no necesita más tecnología. Necesita libertad."
 - La conexión de Claude con Shopify (conector MCP) funciona correctamente.
 
+## Conexiones / herramientas (verificado 2026-10-02)
+- **Shopify** (MCP): conectado a fprojectcompany (correo de la tienda: fprojectcompany26@gmail.com).
+- **Higgsfield** (MCP): conectado · plan Plus · 1.000 créditos. Útil para fotos de producto,
+  imágenes de los artículos del blog y videos/anuncios para redes. Aún no se ha usado.
+- **Instagram** (personal y F Project): NO conectado. No hay conector oficial de Instagram;
+  opciones vía conectores de terceros (ej. Metricool para programar/analizar publicaciones).
+
 ## Productos
 
 ### 1. KIBA PROJECT - BAREFOOT (zapatos)
@@ -48,7 +55,7 @@ Formato: `FP-{PRODUCTO}-{COLOR/MATERIAL}-{TALLA}`
 
 ## Blog y SEO
 
-- Blog de Shopify: **"News"** (`gid://shopify/Blog/124274704753`), URLs `/blogs/news/{handle}`.
+- Blog de Shopify: título **"Blogs"**, handle `news` (`gid://shopify/Blog/124274704753`), URLs `/blogs/news/{handle}`.
   Pendiente: si se quiere renombrar (ej. "Blog" o "Aprende barefoot"), hacerlo ANTES de publicar
   los borradores para no romper los enlaces internos.
 - Artículo ya **publicado** (previo): "¿Qué es el calzado barefoot?" — `que-es-el-calzado-barefoot`.
