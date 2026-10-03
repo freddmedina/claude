@@ -15,7 +15,9 @@ de Claude pueda continuar sin volver a explicar el negocio. Idioma de trabajo: *
   Frase de marca: "El pie no necesita más tecnología. Necesita libertad."
 - La conexión de Claude con Shopify (conector MCP) funciona correctamente.
 
-## Conexiones / herramientas (verificado 2026-10-02)
+## Conexiones / herramientas (verificado 2026-10-03 con la lista de conectores MCP)
+Conectores MCP conectados y activos: **Shopify, Windsor.ai, higgsfield, Gmail, Google Calendar, Calendly**.
+No existe un conector MCP propio de Instagram: Instagram entra **a través de Windsor.ai**.
 - **Shopify** (MCP): conectado a fprojectcompany (correo de la tienda: fprojectcompany26@gmail.com).
 - **Higgsfield** (MCP): conectado · plan Plus · 1.000 créditos. Útil para fotos de producto,
   imágenes de los artículos del blog y videos/anuncios para redes. Aún no se ha usado.
