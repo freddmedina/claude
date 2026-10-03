@@ -98,8 +98,10 @@ en fascitis plantar).
   - `footer` (columna **Shop**): Barefoot KIBA PROJECT + Separadores de dedos.
   - `footer-help` (columna **Help**): enlace `mailto:fprojectcompany26@gmail.com`.
   - `footer-about` (columna **About**): "Quiénes somos" → `/pages/contact`.
-- Pendiente en el editor de temas: asignar `footer-help` y `footer-about` a sus columnas, y en
-  **Stay Connected** poner `https://www.instagram.com/fproject_at/` en Instagram y borrar Facebook/TikTok/X genéricos.
+- ✅ Verificado 2026-10-03: Help → `footer-help`, About → `footer-about`, Stay Connected → solo
+  Instagram `https://www.instagram.com/fproject_at/` (Facebook/TikTok/X eliminados).
+- Ojo: los títulos del footer y el texto del newsletter siguen en inglés ("Shop", "Help", "About",
+  "Stay Connected", "Join our Newsletter…", "Sign up"); pendiente decidir si se traducen.
 
 ## Pendientes / ideas siguientes
 - [ ] Freddy revisa y publica los 8 borradores.
