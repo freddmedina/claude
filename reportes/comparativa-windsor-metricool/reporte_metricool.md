@@ -74,7 +74,7 @@ Reel 01/10: tiempo medio de visionado 3,3 s, **retención media 29,1%**.
 1. La publicación de comunidad (atleta) es la mejor con diferencia: 1.923 de alcance y 3 seguidores nuevos.
 2. Los carruseles de ejercicios y de datos son los que más se guardan y comparten.
 3. El reel de separadores retiene poco (29%): necesita un gancho más fuerte.
-4. Hubo 12 días seguidos sin publicar (14–25/09) y el alcance se desplomó.
+4. No hubo publicaciones en el feed entre el 28/08 y el 29/09 (más de un mes); del 14 al 25/09 el alcance cayó a casi cero.
 
 ## 9. Qué ofrece Metricool además del reporte
 - **Mejores horas para publicar** por día de la semana.

@@ -47,7 +47,7 @@ Datos diarios en bruto: `windsor_diario.csv`.
 | Octubre (1–3) | 3 | 1.557 | 559 | 51 |
 
 Picos: 17/08 (3.790 vistas, 1.180 de alcance, 140 interacciones, por la publicación de Nicolás Estupiñán)
-y 02/09 (2.037 vistas, 107 interacciones). Bache del 14 al 25/09: menos de 60 vistas al día y 0 interacciones (sin publicaciones).
+y 02/09 (2.037 vistas, 107 interacciones). Bache del 14 al 25/09: menos de 60 vistas al día y casi 0 interacciones (1 en todo el tramo); el último post antes fue el 28/08.
 
 ## 4. Publicaciones (10)
 | Fecha | Tipo | Tema | Vistas | Alcance | Interacc. | Guard. | Compart. | Visitas perfil | Seguidores |
@@ -77,7 +77,7 @@ Reels, retención: 07/07 → 5,2 s de visionado medio y 56,5% de salto en los pr
 2. Entre el contenido educativo, los carruseles de **datos sorprendentes** (25% de los huesos) y los **ejercicios** son los que más guardados y compartidos generan.
 3. Los reels pierden a la mayoría en los primeros 3 s (56–71% de salto): falta un gancho visual más fuerte.
 4. **0 toques en el enlace del perfil** en 90 días, y la bio lleva al Linktree personal: ninguna visita de Instagram llega a la tienda.
-5. Hubo 12 días seguidos sin publicar (14–25/09) y el alcance cayó a casi cero.
+5. No hubo publicaciones en el feed entre el 28/08 y el 29/09 (más de un mes); del 14 al 25/09 el alcance cayó a casi cero.
 
 ## 7. Qué ofrece Windsor además del reporte
 - Datos diarios desde el primer día del rango pedido (historial completo de la API de Instagram).
