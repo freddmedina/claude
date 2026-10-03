@@ -19,7 +19,7 @@ de Claude pueda continuar sin volver a explicar el negocio. Idioma de trabajo: *
 - **Shopify** (MCP): conectado a fprojectcompany (correo de la tienda: fprojectcompany26@gmail.com).
 - **Higgsfield** (MCP): conectado · plan Plus · 1.000 créditos. Útil para fotos de producto,
   imágenes de los artículos del blog y videos/anuncios para redes. Aún no se ha usado.
-- **Instagram** (personal y F Project): NO conectado. No hay conector oficial de Instagram;
+- **Instagram** de la marca: https://www.instagram.com/fproject_at/ (@fproject_at). Cuenta NO conectada a Claude. No hay conector oficial de Instagram;
   opciones vía conectores de terceros (ej. Metricool para programar/analizar publicaciones).
 
 ## Productos
@@ -99,7 +99,7 @@ en fascitis plantar).
   - `footer-help` (columna **Help**): enlace `mailto:fprojectcompany26@gmail.com`.
   - `footer-about` (columna **About**): "Quiénes somos" → `/pages/contact`.
 - Pendiente en el editor de temas: asignar `footer-help` y `footer-about` a sus columnas, y en
-  **Stay Connected** poner la URL real de Instagram y borrar Facebook/TikTok/X genéricos.
+  **Stay Connected** poner `https://www.instagram.com/fproject_at/` en Instagram y borrar Facebook/TikTok/X genéricos.
 
 ## Pendientes / ideas siguientes
 - [ ] Freddy revisa y publica los 8 borradores.
