@@ -89,6 +89,18 @@ en fascitis plantar).
   desde los ya publicados no funcionan.
 - Reemplazar imágenes por fotos propias por tema cuando sea posible y añadir anécdotas clínicas.
 
+## Pie de página (footer)
+
+- Tema activo: **"Tinker - Bebas Neue"** (`gid://shopify/OnlineStoreTheme/198768656753`).
+  Las columnas del footer son bloques de menú en `sections/footer-group.json`.
+  El conector no puede editar archivos del tema activo; esos cambios se hacen en el editor de temas.
+- Menús creados/actualizados en Navegación:
+  - `footer` (columna **Shop**): Barefoot KIBA PROJECT + Separadores de dedos.
+  - `footer-help` (columna **Help**): enlace `mailto:fprojectcompany26@gmail.com`.
+  - `footer-about` (columna **About**): "Quiénes somos" → `/pages/contact`.
+- Pendiente en el editor de temas: asignar `footer-help` y `footer-about` a sus columnas, y en
+  **Stay Connected** poner la URL real de Instagram y borrar Facebook/TikTok/X genéricos.
+
 ## Pendientes / ideas siguientes
 - [ ] Freddy revisa y publica los 8 borradores.
 - [ ] Decidir nombre del blog (antes de publicar).
