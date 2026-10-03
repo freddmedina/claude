@@ -19,8 +19,15 @@ de Claude pueda continuar sin volver a explicar el negocio. Idioma de trabajo: *
 - **Shopify** (MCP): conectado a fprojectcompany (correo de la tienda: fprojectcompany26@gmail.com).
 - **Higgsfield** (MCP): conectado · plan Plus · 1.000 créditos. Útil para fotos de producto,
   imágenes de los artículos del blog y videos/anuncios para redes. Aún no se ha usado.
-- **Instagram** de la marca: https://www.instagram.com/fproject_at/ (@fproject_at). Cuenta NO conectada a Claude. No hay conector oficial de Instagram;
-  opciones vía conectores de terceros (ej. Metricool para programar/analizar publicaciones).
+- **Instagram** de la marca: https://www.instagram.com/fproject_at/ (@fproject_at).
+  ✅ **Conectado vía Windsor.ai (MCP)** — verificado 2026-10-03. Cuenta Windsor: plan **Trial** (gratis).
+  - Instagram account ID en Windsor: `17841469436603089` (conector `instagram`).
+  - **Lectura de métricas** (`get_data`): perfil (seguidores, bio, enlace), alcance, vistas,
+    interacciones, nuevos seguidores por día, métricas por publicación/reel/historia y audiencia.
+  - **Acciones de escritura** (`execute_action`, siempre con confirmación de Fredd): publicar imagen,
+    carrusel, video/reel e historia; responder, ocultar o borrar comentarios.
+  - Línea base (27/09–03/10/2026): 707 seguidores, 668 seguidos, 27 publicaciones,
+    ~3.373 vistas y 88 interacciones en 7 días, +9 seguidores. Bio aún apunta al Linktree personal.
 
 ## Productos
 
@@ -100,8 +107,9 @@ en fascitis plantar).
   - `footer-about` (columna **About**): "Quiénes somos" → `/pages/contact`.
 - ✅ Verificado 2026-10-03: Help → `footer-help`, About → `footer-about`, Stay Connected → solo
   Instagram `https://www.instagram.com/fproject_at/` (Facebook/TikTok/X eliminados).
-- Ojo: los títulos del footer y el texto del newsletter siguen en inglés ("Shop", "Help", "About",
-  "Stay Connected", "Join our Newsletter…", "Sign up"); pendiente decidir si se traducen.
+- Los títulos del footer y el newsletter siguen en inglés ("Shop", "Help", "About", "Stay Connected").
+  Según la rama `claude/ecstatic-wright-ae4ujb`, la web mitad español / mitad inglés es una
+  **decisión de marca a propósito** (30/09/2026): no traducirlos sin preguntar.
 
 ## Pendientes / ideas siguientes
 - [ ] Freddy revisa y publica los 8 borradores.
