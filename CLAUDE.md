@@ -16,7 +16,7 @@ de Claude pueda continuar sin volver a explicar el negocio. Idioma de trabajo: *
 - La conexión de Claude con Shopify (conector MCP) funciona correctamente.
 
 ## Conexiones / herramientas (verificado 2026-10-03 con la lista de conectores MCP)
-Conectores MCP conectados y activos: **Shopify, Windsor.ai, higgsfield, Gmail, Google Calendar, Calendly**.
+Conectores MCP conectados y activos: **Shopify, Windsor.ai, Metricool, higgsfield, Gmail, Google Calendar, Calendly**.
 No existe un conector MCP propio de Instagram: Instagram entra **a través de Windsor.ai**.
 - **Shopify** (MCP): conectado a fprojectcompany (correo de la tienda: fprojectcompany26@gmail.com).
 - **Higgsfield** (MCP): conectado · plan Plus · 1.000 créditos. Útil para fotos de producto,
@@ -30,6 +30,12 @@ No existe un conector MCP propio de Instagram: Instagram entra **a través de Wi
     carrusel, video/reel e historia; responder, ocultar o borrar comentarios.
   - Línea base (27/09–03/10/2026): 707 seguidores, 668 seguidos, 27 publicaciones,
     ~3.373 vistas y 88 interacciones en 7 días, +9 seguidores. Bio aún apunta al Linktree personal.
+- **Metricool** (MCP): conectado — verificado 2026-10-03. Marca `fproject_at` (brandId `7224517`),
+  zona horaria America/Bogota, red conectada: solo **Instagram** (@fproject_at).
+  - Cuenta creada y conectada el 03/10/2026: las métricas aún salen en 0 mientras sincroniza;
+    Metricool solo guarda historia desde la conexión (para datos anteriores usar Windsor).
+  - Sirve para analítica (`getAnalyticsDataByMetrics`, ej. `IGEV01` seguidores), mejores horas para
+    publicar y **programar publicaciones** (siempre con confirmación de Fredd). Aún no hay posts programados.
 
 ## Productos
 
