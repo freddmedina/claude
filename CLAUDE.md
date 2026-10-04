@@ -34,6 +34,9 @@ No existe un conector MCP propio de Instagram: Instagram entra **a través de Wi
   zona horaria America/Bogota, red conectada: solo **Instagram** (@fproject_at).
   - Cuenta creada y conectada el 03/10/2026: las métricas aún salen en 0 mientras sincroniza;
     Metricool solo guarda historia desde la conexión (para datos anteriores usar Windsor).
+  - Revisado 04/10/2026: Metricool importó historial solo desde el 02/08/2026 (no trae julio) y aún no
+    procesa el 03/10; vistas diarias solo desde el 26/09. Windsor sí trae los 90 días y el día en curso.
+    Comparativa completa en `reportes/comparativa-windsor-metricool/`.
   - Sirve para analítica (`getAnalyticsDataByMetrics`, ej. `IGEV01` seguidores), mejores horas para
     publicar y **programar publicaciones** (siempre con confirmación de Fredd). Aún no hay posts programados.
 
