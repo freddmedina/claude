@@ -43,8 +43,8 @@ Si aún no tienes separadores, los **F Movement** cuestan **$40.000** 🙌
 ✔️ Talla única, flexibles y reutilizables
 ✔️ Vienen con una guía ilustrada de estos ejercicios
 
-Los puedes pedir aquí 👉 https://fprojectcompany.com/products/separadores-de-dedos-en-silicona-medica
-o, si prefieres, dime tu ciudad y te ayudo con el pedido por aquí.
+Los vendemos directamente por aquí 📩 Dime tu ciudad y te cuento cómo hacemos el pedido y el envío.
+(También los encuentras en el enlace de nuestro perfil.)
 
 ---
 

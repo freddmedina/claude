@@ -40,6 +40,13 @@ No existe un conector MCP propio de Instagram: Instagram entra **a través de Wi
   - Sirve para analítica (`getAnalyticsDataByMetrics`, ej. `IGEV01` seguidores), mejores horas para
     publicar y **programar publicaciones** (siempre con confirmación de Fredd). Aún no hay posts programados.
 
+## Estado de ventas (05/10/2026)
+- La **web aún no está abierta al público**: se inaugura el **15/10/2026** junto con la **preventa KIBA**.
+- Mientras tanto los separadores se venden **solo por DM de Instagram o por el enlace de la bio (Linktree)**.
+  No poner enlaces a fprojectcompany.com en Instagram ni en DM, ni pedir cambiar la bio, hasta el lanzamiento.
+- Llamados activos: "PREVENTA" (KIBA, lista para el 15/10) y "GUÍA" (separadores; guía en
+  `contenido/guia-separadores-3-ejercicios.md`). Fredd responde los DM; Claude responde los comentarios públicos.
+
 ## Productos
 
 ### 1. KIBA PROJECT - BAREFOOT (zapatos)
