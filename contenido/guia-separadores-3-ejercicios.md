@@ -50,9 +50,9 @@ Los vendemos directamente por aquí 📩 Dime tu ciudad y te cuento cómo hacemo
 
 ## Respuesta pública al comentario (la hace Claude desde Windsor)
 
-> ¡Te la acabo de enviar por DM! 📩 Revisa tus solicitudes de mensajes si no la ves.
+> ¡Listo! 🙌 Te la envío por DM en un momento 📩 Si no la ves, revisa tus solicitudes de mensajes.
 
-*(Si la persona no te sigue, el DM le llega a "Solicitudes"; por eso el aviso.)*
+*(Claude no puede enviar DM: responde en público y avisa a Fredd, que envía la guía por DM. Si la persona no te sigue, el DM le llega a "Solicitudes"; por eso el aviso.)*
 
 ---
 
