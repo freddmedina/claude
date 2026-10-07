@@ -40,6 +40,8 @@ de Claude pueda continuar sin volver a explicar el negocio. Idioma de trabajo: *
   clientes, colecciones, descuentos, analítica y GraphQL Admin para blogs/metafields),
   **GitHub**, **Claude Docs** y **Higgsfield** (generación de imágenes/video, útil para
   imágenes de artículos o contenido de redes).
+  Desde el 2026-10-07 también aparecen **Gmail, Google Calendar, Google Drive, Calendly y Metricool**
+  (redes sociales: programar publicaciones y ver métricas).
 - Mantener este archivo actualizado al final de cada sesión con lo que se haya hecho.
 
 ## Productos
@@ -144,7 +146,8 @@ en fascitis plantar).
 ## Correos y newsletter
 
 - En la web hay un formulario de newsletter ("ofertas e información"). Los suscriptores quedan
-  como clientes con `email_marketing_state: subscribed`. Al 2026-09-27 había **5 suscriptores**.
+  como clientes con `email_marketing_state: subscribed`. Al 2026-10-07 había **10 suscriptores**
+  (5 el 26-sep, día de las pruebas de Fredd; luego 28-sep ×2, 30-sep ×2, 07-oct ×1). Ninguno ha comprado aún.
 - Se envía desde Shopify Messaging (Shopify Email), con el remitente de la tienda
   (fprojectcompany26@gmail.com).
 
@@ -272,3 +275,4 @@ Pasos (la API no permite crear automatizaciones de marketing, así que se config
   Fredd confirmó que en el correo real el asunto y todo el diseño salen bien (el "[TEST]" era solo de la prueba).
   Planes de Fredd: crear más adelante el remitente con dominio propio, y publicar los artículos del blog
   a medida que se lance la **preventa** y demás novedades (no hay fechas aún).
+- **2026-10-07:** conexión con Shopify OK (zona horaria Bogotá). 10 suscriptores al newsletter, 0 compras.
