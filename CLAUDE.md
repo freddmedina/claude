@@ -19,6 +19,8 @@ de Claude pueda continuar sin volver a explicar el negocio. Idioma de trabajo: *
 Conectores MCP conectados y activos: **Shopify, Windsor.ai, higgsfield, Gmail, Google Calendar, Calendly**.
 No existe un conector MCP propio de Instagram: Instagram entra **a través de Windsor.ai**.
 - **Shopify** (MCP): conectado a fprojectcompany (correo de la tienda: fprojectcompany26@gmail.com).
+- **ElevenLabs** (MCP, conectado 2026-10-08): voces y locuciones (`creative_generate_speech`,
+  `creative_list_voices`) y agentes de voz. Biblioteca con voces paisas/colombianas.
 - **Higgsfield** (MCP): conectado · plan Plus · 1.000 créditos. Útil para fotos de producto,
   imágenes de los artículos del blog y videos/anuncios para redes. Aún no se ha usado.
 - **Instagram** de la marca: https://www.instagram.com/fproject_at/ (@fproject_at).
@@ -112,6 +114,32 @@ en fascitis plantar).
 - Los títulos del footer y el newsletter siguen en inglés ("Shop", "Help", "About", "Stay Connected").
   Según la rama `claude/ecstatic-wright-ae4ujb`, la web mitad español / mitad inglés es una
   **decisión de marca a propósito** (30/09/2026): no traducirlos sin preguntar.
+
+## Finanzas (actualizado 2026-10-08)
+- **Regla:** toda conversación financiera o contable con Freddy la responde **Angela** en primera
+  persona (cargar el skill `gerente-financiero`; para libros e impuestos, Angela se apoya en el
+  skill `contador`). Si Freddy le habla a "Angela", responder como ella aunque el tema no sea
+  financiero.
+- **Regla de voz (Freddy, 2026-10-08): TODAS las respuestas a Freddy van también en audio** con la
+  voz de Lina (ElevenLabs `creative_generate_speech`, `voice_id` `yfUfwZTRubVrsUZWqzwp`, modelo
+  `eleven_v3`, `generations_count: 1`), sea cual sea el tema. Guion ≤ 60 s en primera persona como
+  Angela, números escritos como se dicen; descargar el mp3 y enviarlo con `SendUserFile`. Las
+  tablas y detalles siguen por escrito. Si no hay créditos, avisar y responder solo por escrito.
+- Skill **`gerente-financiero`** (`.claude/skills/gerente-financiero/`): CFO del negocio, persona
+  **Angela** con voz ElevenLabs "Lina" paisa (`yfUfwZTRubVrsUZWqzwp`, modelo `eleven_v3`). Su
+  línea base, mapa del Excel `fproject_ecommerce.xlsx` y errores detectados están en
+  `references/estado-financiero.md`; notas tributarias Colombia en `references/colombia-tributario.md`.
+- Datos clave: costo aterrizado KIBA **112.162 COP/par** (750 pares, FOB USD 19,58, TRM 3.493,
+  pedido total 84,1 M). Shopify cobra **IVA 19% incluido** (480.000 → 403.361 neto).
+  Contribución KIBA antes de pauta ≈ 250.000/par. Costos fijos ≈ 2,76 M/mes (sin sueldo ni contador).
+- Skill **`contador`** (`.claude/skills/contador/`): contador interno del equipo de Angela. Lleva la
+  contabilidad en `contabilidad/` (libro diario, kardex, cierres) y arma el paquete contable que se
+  envía al **contador externo** solo cuando hay que presentar una declaración. El externo solo hace
+  renta y presentaciones puntuales, y cobra por presentación.
+- Freddy factura como **persona natural**. Todas las ventas (incluida familia y amigos) se registran
+  en Shopify. La mercancía KIBA llega ~**15 nov 2026** ya nacionalizada.
+- Ventas reales en Shopify a 2026-10-08: solo 4 separadores, **0 pares KIBA**. Inventario KIBA en
+  Shopify: 762 pares (ubicación "envia ff bogota"), tallas 45 con 4 por color.
 
 ## Pendientes / ideas siguientes
 - [ ] Freddy revisa y publica los 8 borradores.
