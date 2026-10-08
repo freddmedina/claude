@@ -119,8 +119,10 @@ Errores / inconsistencias detectados (2026-10-08):
 
 ## 7. Situación tributaria y contable (Freddy, 2026-10-08)
 - Factura como **persona natural**.
-- Contador **externo (outsourcing)**; el skill `contador` le prepara la información.
-  Correo del contador: _pendiente_. Honorarios mensuales: _pendiente_ (sumar a costos fijos).
+- La **contabilidad la lleva el skill `contador`** (libros en `contabilidad/`). El contador
+  público externo solo hace la **declaración de renta** y las presentaciones que se le envíen,
+  y **cobra por presentación**. Correo del contador: _pendiente_. Tarifa por presentación:
+  _pendiente_ (presupuestar en el mes de cada vencimiento).
 - Por confirmar con el contador: responsabilidad de IVA en el RUT (Shopify ya cobra IVA),
   facturación electrónica, quién figura como importador (Freddy o la comercializadora) y si
   conviene régimen SIMPLE o pasar a SAS. Ojo: vender los 750 pares a precio lleno ≈ 302 M de

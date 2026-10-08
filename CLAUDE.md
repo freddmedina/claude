@@ -123,8 +123,10 @@ en fascitis plantar).
 - Datos clave: costo aterrizado KIBA **112.162 COP/par** (750 pares, FOB USD 19,58, TRM 3.493,
   pedido total 84,1 M). Shopify cobra **IVA 19% incluido** (480.000 → 403.361 neto).
   Contribución KIBA antes de pauta ≈ 250.000/par. Costos fijos ≈ 2,76 M/mes (sin sueldo ni contador).
-- Skill **`contador`** (`.claude/skills/contador/`): auxiliar contable del equipo de Angela; prepara
-  paquetes, IVA, kardex y causación de la importación para el **contador externo** (outsourcing).
+- Skill **`contador`** (`.claude/skills/contador/`): contador interno del equipo de Angela. Lleva la
+  contabilidad en `contabilidad/` (libro diario, kardex, cierres) y arma el paquete contable que se
+  envía al **contador externo** solo cuando hay que presentar una declaración. El externo solo hace
+  renta y presentaciones puntuales, y cobra por presentación.
 - Freddy factura como **persona natural**. Todas las ventas (incluida familia y amigos) se registran
   en Shopify. La mercancía KIBA llega ~**15 nov 2026** ya nacionalizada.
 - Ventas reales en Shopify a 2026-10-08: solo 4 separadores, **0 pares KIBA**. Inventario KIBA en
