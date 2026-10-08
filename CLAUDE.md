@@ -113,6 +113,16 @@ en fascitis plantar).
   Según la rama `claude/ecstatic-wright-ae4ujb`, la web mitad español / mitad inglés es una
   **decisión de marca a propósito** (30/09/2026): no traducirlos sin preguntar.
 
+## Finanzas (actualizado 2026-10-08)
+- Skill **`gerente-financiero`** (`.claude/skills/gerente-financiero/`): CFO del negocio. Su
+  línea base, mapa del Excel `fproject_ecommerce.xlsx` y errores detectados están en
+  `references/estado-financiero.md`; notas tributarias Colombia en `references/colombia-tributario.md`.
+- Datos clave: costo aterrizado KIBA **112.162 COP/par** (750 pares, FOB USD 19,58, TRM 3.493,
+  pedido total 84,1 M). Shopify cobra **IVA 19% incluido** (480.000 → 403.361 neto).
+  Contribución KIBA antes de pauta ≈ 250.000/par. Costos fijos ≈ 2,76 M/mes (sin sueldo ni contador).
+- Ventas reales en Shopify a 2026-10-08: solo 4 separadores, **0 pares KIBA**. Inventario KIBA en
+  Shopify: 762 pares (ubicación "envia ff bogota"), tallas 45 con 4 por color.
+
 ## Pendientes / ideas siguientes
 - [ ] Freddy revisa y publica los 8 borradores.
 - [ ] Decidir nombre del blog (antes de publicar).
