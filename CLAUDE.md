@@ -19,6 +19,8 @@ de Claude pueda continuar sin volver a explicar el negocio. Idioma de trabajo: *
 Conectores MCP conectados y activos: **Shopify, Windsor.ai, higgsfield, Gmail, Google Calendar, Calendly**.
 No existe un conector MCP propio de Instagram: Instagram entra **a través de Windsor.ai**.
 - **Shopify** (MCP): conectado a fprojectcompany (correo de la tienda: fprojectcompany26@gmail.com).
+- **ElevenLabs** (MCP, conectado 2026-10-08): voces y locuciones (`creative_generate_speech`,
+  `creative_list_voices`) y agentes de voz. Biblioteca con voces paisas/colombianas.
 - **Higgsfield** (MCP): conectado · plan Plus · 1.000 créditos. Útil para fotos de producto,
   imágenes de los artículos del blog y videos/anuncios para redes. Aún no se ha usado.
 - **Instagram** de la marca: https://www.instagram.com/fproject_at/ (@fproject_at).
@@ -114,7 +116,8 @@ en fascitis plantar).
   **decisión de marca a propósito** (30/09/2026): no traducirlos sin preguntar.
 
 ## Finanzas (actualizado 2026-10-08)
-- Skill **`gerente-financiero`** (`.claude/skills/gerente-financiero/`): CFO del negocio. Su
+- Skill **`gerente-financiero`** (`.claude/skills/gerente-financiero/`): CFO del negocio, persona
+  **Angela** con voz ElevenLabs "Lina" paisa (`yfUfwZTRubVrsUZWqzwp`, modelo `eleven_v3`). Su
   línea base, mapa del Excel `fproject_ecommerce.xlsx` y errores detectados están en
   `references/estado-financiero.md`; notas tributarias Colombia en `references/colombia-tributario.md`.
 - Datos clave: costo aterrizado KIBA **112.162 COP/par** (750 pares, FOB USD 19,58, TRM 3.493,
