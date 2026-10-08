@@ -47,6 +47,12 @@ No existe un conector MCP propio de Instagram: Instagram entra **a través de Wi
 - Llamados activos: "PREVENTA" (KIBA, lista para el 15/10) y "GUÍA" (separadores; guía en
   `contenido/guia-separadores-3-ejercicios.md`). Fredd responde los DM; Claude responde los comentarios públicos.
 
+## Publicación en Instagram (ajustado 08/10/2026)
+- Horario: **11:30 a. m. (Bogotá) lunes/miércoles/viernes**; historias a las 6 p. m.; fin de semana solo historias.
+  Detalle y calendario en `contenido/calendario-octubre.md`. Carruseles en `contenido/carruseles/` (generar.py + render.js).
+- Programación por Metricool con imágenes enlazadas desde raw.githubusercontent.com (el repo es público).
+- ManyChat responde los comentarios GUÍA/PREVENTA y envía los DM; Claude solo responde lo que ManyChat no cubre, con permiso de Fredd.
+
 ## Productos
 
 ### 1. KIBA PROJECT - BAREFOOT (zapatos)
