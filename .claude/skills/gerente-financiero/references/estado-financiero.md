@@ -34,8 +34,49 @@ y Shopify en vivo (consultado 2026-10-08). Actualiza este archivo cuando cambie 
 | **Costo total del pedido** | **84.121.428** |
 | **Costo aterrizado por par** | **112.162** |
 
-- No se sabe si los 32,8 M incluyen IVA de importación (descontable si se es responsable de IVA)
-  ni el arancel por separado. Pedir desglose a la comercializadora.
+### Desglose de los 32,8 M — preliquidación Globalie S.A.S. COT-3172-2026 (vigencia 21-08-2026)
+Globalie es la **importadora** (modelo comercializadora): paga aduana e IVA de importación y le
+factura a Freddy. La mercancía (FOB) se paga aparte al proveedor y **no** está en los 32,8 M.
+Datos de la preliquidación: TRM 3.185,47 · término FOB · carga general 6,10 CBM, 640 kg ·
+mercancía declarada **USD 13.335** · flete USD 488 · seguro USD 106 · CIF USD 13.929 (44.370.412).
+
+| Bloque | COP |
+|---|---|
+| Arancel 15% sobre CIF | 6.655.562 |
+| IVA de importación 19% sobre (CIF + arancel) — lo paga y descuenta Globalie | 9.694.935 |
+| Flete + seguro internacional | 1.892.169 |
+| Gastos en destino (USD 776) | 2.471.925 |
+| Puerto | 2.000.000 |
+| Aduana (agencia) | 2.313.448 |
+| Transporte urbano | 1.826.000 |
+| 4×1000 | 90.400 |
+| Comisión Globalie (USD 600) | 1.911.282 |
+| **Subtotal costos** | **28.855.721** |
+| "Diferencia en IVA" + IVA 19% de la factura de Globalie | 3.971.002 |
+| **Total a pagar a Globalie** | **32.826.723** |
+
+Fórmula de Globalie (replicada): total = 1,19 × (0,62 × subtotal + IVA importación). La factura
+a Freddy sería base 27.585.482 + IVA 5.241.242. Ese IVA de 5,24 M es **descontable para Freddy
+solo si es responsable de IVA** y recibe factura electrónica.
+
+Inconsistencias / preguntas abiertas:
+- Mercancía declarada USD 13.335 (17,78/par) vs Excel USD 14.685 (19,58/par): diferencia
+  USD 1.350. El valor declarado en aduana debe coincidir con lo realmente pagado al proveedor.
+- TRM 3.185,47 (preliquidación) vs 3.493 (Excel). Lo que cuenta es la TRM real de cada pago.
+- En el cuadro resumen el 4×1000 es 291.200 y el costo bancario 300.000, pero en el detalle
+  van 90.400 y 0: quedan **500.800 COP** que podrían sumarse en la liquidación definitiva.
+- El IVA de importación entra en la base sobre la que luego se cobra 19% (IVA sobre IVA):
+  pedir a Globalie que explique cómo será la factura.
+- Es preliquidación: el total final cambia con la TRM. Sensibilidad del total Globalie:
+  TRM −5% ≈ 31,4 M · TRM +5% ≈ 34,2 M · TRM +10% ≈ 35,6 M.
+
+### Costo por par recalculado (2026-10-08)
+| Escenario | Mercancía (COP) | Globalie | Total | Por par |
+|---|---|---|---|---|
+| Excel, sin descontar IVA (actual) | 51.294.705 | 32.826.723 | 84.121.428 | **112.162** |
+| Excel, responsable de IVA (descuenta 5,24 M) | 51.294.705 | 27.585.482 | 78.880.187 | **105.174** |
+| Preliquidación (USD 13.335 a 3.185), sin descontar | 42.478.242 | 32.826.723 | 75.304.965 | 100.407 |
+Pendiente: cuánto se pagó realmente al proveedor (USD, COP, fecha, comisiones bancarias).
 - Separadores: el Excel no tiene costo en Importación/Productos; en Costos Fijos aparece
   **18.000 COP/unidad** → usar ese valor hasta confirmar.
 
