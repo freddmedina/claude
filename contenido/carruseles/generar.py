@@ -113,7 +113,7 @@ CARRUSELES = {
     ("lima", "numero", dict(n="5–6", titulo="Semanas", texto="**Casi todo el día.** Empieza a entrenar con ellos: sentadilla, peso muerto, zancadas.", rep="Gimnasio")),
     ("crema", "numero", dict(n="7–8", titulo="Semanas", texto="**Uso completo.** Si corres, empieza con trotes cortos y aumenta poco a poco.", rep="Libertad")),
     ("negro", "comparar", dict(n="", titulo="Escucha a\ntu cuerpo", no="Dolor puntual en el hueso o que no se va: **para y consulta.**", si="Cansancio en pies y pantorrillas: normal, estás despertando músculos.", etiquetas=("Alerta", "Normal"))),
-    ("lima", "cta", dict(titulo="Te acompañamos\nen la transición", texto="Guía completa de 8 semanas por DM.", accion="Comenta PREVENTA", firma="Preventa · 15 de octubre")),
+    ("lima", "cta", dict(titulo="Te acompañamos\nen la transición", texto="KIBA llega con plantilla de transición y este plan de 8 semanas.\n\n💬 Comenta **PREVENTA** y te aviso antes que a nadie.", accion="Comenta PREVENTA", firma="Preventa · 15 de octubre")),
 ],
 }
 
