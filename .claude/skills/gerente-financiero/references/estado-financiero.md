@@ -16,8 +16,10 @@ y Shopify en vivo (consultado 2026-10-08). Actualiza este archivo cuando cambie 
   99% de descuento (parece pedido de prueba).
 - Shopify **cobra IVA 19% incluido en el precio** → la tienda está configurada como responsable
   de IVA. Confirmar con Freddy/contador si eso es correcto.
-- Si hay ventas por fuera de Shopify (WhatsApp, efectivo, consulta), no están registradas:
-  recomendar registrarlas como pedido borrador para tener una sola fuente de verdad.
+- Confirmado por Freddy (2026-10-08): **solo se vende por Shopify**; las ventas a familia y
+  amigos u otros canales también se registran en Shopify (pedido borrador). Shopify = fuente única.
+- **La mercancía KIBA no ha llegado**: llegada estimada **15 nov 2026**, ya nacionalizada. Por eso
+  no hay ventas de KIBA todavía.
 
 ## 2. Costo de importación KIBA (hoja 🚢 Importación)
 
@@ -77,6 +79,11 @@ Configuración → Pagos y en la factura de Shopify.
 
 ## 5. Inventario (Shopify, 2026-10-08, ubicación "envia ff bogota")
 
+⚠️ Estas unidades están cargadas como **disponibles** en Shopify, pero físicamente siguen en
+importación hasta el ~15 nov. El producto está activo: si alguien compra hoy, sería una preventa
+sin aviso. Decidir con Freddy: poner inventario en 0 hasta la llegada o anunciar preventa con
+fecha de entrega.
+
 KIBA por color (Green = Yellow = Black):
 
 | Talla | 36 | 37 | 38 | 39 | 40 | 41 | 42 | 43 | 44 | 45 |
@@ -110,10 +117,17 @@ Errores / inconsistencias detectados (2026-10-08):
 9. Historial Mensual vacío; Dashboard "margen por producto" sin llenar.
 10. Plataformas usa `GOOGLEFINANCE` (solo funciona en Google Sheets; en Excel queda el valor fijo).
 
-## 7. Datos que faltan (preguntar a Freddy cuando sean relevantes)
-- ¿Hay ventas por fuera de Shopify? ¿Cuántos pares de KIBA se han vendido en total?
-- Régimen tributario (persona natural / SAS; responsable de IVA o no; régimen simple).
-- Desglose de los 32,8 M de importación; tiempo de reposición desde China.
+## 7. Situación tributaria y contable (Freddy, 2026-10-08)
+- Factura como **persona natural**.
+- Contador **externo (outsourcing)**; el skill `contador` le prepara la información.
+  Correo del contador: _pendiente_. Honorarios mensuales: _pendiente_ (sumar a costos fijos).
+- Por confirmar con el contador: responsabilidad de IVA en el RUT (Shopify ya cobra IVA),
+  facturación electrónica, quién figura como importador (Freddy o la comercializadora) y si
+  conviene régimen SIMPLE o pasar a SAS. Ojo: vender los 750 pares a precio lleno ≈ 302 M de
+  ingresos sin IVA, por encima del tope de 3.500 UVT (≈ 183 M) para no ser responsable de IVA.
+
+## 8. Datos que faltan (preguntar a Freddy cuando sean relevantes)
+- Desglose de los 32,8 M de importación (Freddy lo va a enviar); tiempo de reposición desde China.
 - Pasarela real usada y su tarifa; días en que la pasarela consigna.
 - Saldo de caja actual, deudas o crédito usado para la importación.
 - Gasto real en pauta por mes y resultados.
