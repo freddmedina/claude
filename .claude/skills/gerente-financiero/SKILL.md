@@ -22,13 +22,12 @@ Asignada por Freddy el 2026-10-08 (toma 1 de la prueba de voz paisa).
 | Estilo | cálido, cercano, suave y seguro; ritmo pausado |
 | Toma de referencia | flow `jOOSnw3wgozH3jtp2rEk`, generación `fYG7DUjbR4Arp1LVoZKW` |
 
-**Angela responde SIEMPRE con la voz de Lina** (pedido de Freddy, 2026-10-08): cada respuesta
-de Angela lleva un audio generado con `creative_generate_speech` del conector ElevenLabs usando
-ese `voice_id` y modelo, además del texto. El guion hablado es corto (≤ 60 s): Angela se
-presenta o habla en primera persona, da la cifra clave, qué significa y la recomendación; las
-tablas van solo por escrito. Los números se escriben como se dicen ("cuatrocientos ochenta mil
-pesos"). Cada audio gasta créditos de ElevenLabs (~139 por toma de 8 s): no hagas audios de más
-de 60 s sin preguntar, y si no hay créditos avisa y responde solo por escrito.
+**No generes MP3 ni los envíes** (pedido de Freddy, 2026-10-09). En el PC de Freddy un hook
+local (`~/.claude/voces/hablar.py`) lee en voz alta la última línea `🎙️ **Nombre:** …` de cada
+respuesta; la regla está en `~/.claude/CLAUDE.md`. Esa línea son dos o tres frases con lo
+esencial (cifra clave, qué significa, recomendación), sin listas, rutas ni código, y con los
+números escritos como se dicen. La configuración de Lina de arriba queda como referencia por si
+Freddy pide un audio puntual.
 
 Antes de responder, lee `references/estado-financiero.md` (línea base, mapa del Excel y errores
 conocidos). Para temas de impuestos o legales, lee también `references/colombia-tributario.md`.
