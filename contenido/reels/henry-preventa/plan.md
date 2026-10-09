@@ -53,7 +53,7 @@ Carpeta compartida del Drive de fprojectcompany26. HENRY 2 y HENRY 3 están subi
 | henry 1.1 | 29 s | Comparación con voz: amortiguación vs barefoot, con los KIBA en el gym | Voz de Henry | **Reel lunes 12/10** (arriba) |
 | HENRY 2 | 23 s | La rutina: se levanta, moviliza los dedos descalzo y entrena con los KIBA (sentadilla, zancadas, salto al cajón, sentadilla con salto) | Sin voz | **Reel miércoles 14/10, "Mañana abrimos"** |
 | HENRY 3 | 6 s | Primer plano de los KIBA corriendo en la caminadora | Sin voz | Historias del 14 y 15/10 (cuenta regresiva) y portada en loop |
-| 0318 | 13 s | Fredd con un bebé: "Esto es un pie de niño… anchos, abiertos, funcionales…" (subtítulos ya puestos) | Voz | No es de preventa. Guardar para después del lanzamiento |
+| 0318 | 13 s | Persona con camiseta F Project y un bebé: "Esto es un pie de niño… anchos, abiertos, funcionales…" (subtítulos ya puestos) | Voz | No es de preventa. Guardar para después del lanzamiento |
 
 ### HENRY 2 · "Mañana abrimos" (14/10)
 - **Gancho:** el primer segundo de HENRY 2 es flojo (piernas junto al sofá). Abre con 1–2 s de HENRY 3 (KIBA corriendo) y luego pasa a la rutina.
