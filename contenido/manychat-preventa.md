@@ -1,5 +1,36 @@
 # ManyChat — flujo "PREVENTA" (KIBA, lanzamiento 15/10/2026)
 
+## VERSIÓN PRINCIPAL — mensaje único (plantilla rápida de ManyChat, 09/10/2026)
+
+¡Hola! 🙌 Ya estás en la lista de la preventa de KIBA.
+
+El 15 de octubre abrimos la preventa junto con nuestra página web. KIBA es nuestro calzado barefoot diseñado desde la fisioterapia:
+✔️ Puntera ancha · Cero drop · Suela flexible
+✔️ Plantilla de transición incluida
+✔️ Tallas 36 a 45 · Verde, Amarillo y Negro
+
+Para tenerte todo listo, respóndeme aquí con: 👇
+1️⃣ Tu correo electrónico 📧
+2️⃣ Tu talla
+3️⃣ El color que más te gusta
+
+Con tu correo te inscribimos el 15 de octubre a FProject para que te llegue el acceso a la preventa y nuestros correos (contenido de salud del pie y novedades). Puedes darte de baja cuando quieras.
+
+— Fredd Medina · Fisioterapeuta
+
+Botón de enlace (si es obligatorio): WhatsApp https://wa.me/57XXXXXXXXXX "Escríbeme por WhatsApp" o el Linktree. Nunca fprojectcompany.com antes del 15/10.
+
+### Si se usa el Flow Builder: pedir el correo con el bloque "User Input" (tipo Email) y guardarlo en el campo de sistema Email.
+
+### 15/10 — Suscribir a la web
+1. Exportar de ManyChat (o copiar de los DM) nombre, correo, talla y color.
+2. Shopify → Clientes → Importar CSV, con la columna "Accepts Email Marketing" = yes (solo quien dio su correo con el aviso de arriba).
+3. Etiquetar en Shopify "preventa-instagram" para enviarles el correo de lanzamiento.
+Nota legal (Colombia, Ley 1581 de 2012): guardar la conversación donde la persona entregó el correo como prueba de autorización; incluir opción de baja en cada correo (Shopify Email ya lo trae).
+
+---
+## Versión por pasos (solo si se usa el Flow Builder)
+
 Palabra clave: PREVENTA / preventa / Preventa (activar "contiene la palabra"), en todas las publicaciones y en DM.
 
 ## Respuesta pública al comentario (alternar)
