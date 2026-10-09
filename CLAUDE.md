@@ -44,7 +44,7 @@ No existe un conector MCP propio de Instagram: Instagram entra **a través de Wi
 - La **web aún no está abierta al público**: se inaugura el **15/10/2026** junto con la **preventa KIBA**.
 - Mientras tanto los separadores se venden **solo por DM de Instagram o por el enlace de la bio (Linktree)**.
   No poner enlaces a fprojectcompany.com en Instagram ni en DM, ni pedir cambiar la bio, hasta el lanzamiento.
-- Precio de preventa KIBA: **$420.000** (normal $480.000).
+- Precio de preventa KIBA: **$480.000** (el que ya está en Shopify).
 - Llamados activos: "PREVENTA" (KIBA, lista para el 15/10) y "GUÍA" (separadores; guía en
   `contenido/guia-separadores-3-ejercicios.md`). Fredd responde los DM; Claude responde los comentarios públicos.
 
