@@ -141,16 +141,20 @@ en fascitis plantar).
 - Ventas reales en Shopify a 2026-10-08: solo 4 separadores, **0 pares KIBA**. Inventario KIBA en
   Shopify: 762 pares (ubicación "envia ff bogota"), tallas 45 con 4 por color.
 
-## Galería de fotos por color (en curso, 2026-10-09)
+## Galería de fotos por color (2026-10-09) — lista para revisar y publicar
 - Copia del tema SIN publicar: **"Tinker - Bebas Neue (fotos por color)"** (`gid://shopify/OnlineStoreTheme/208330883441`).
   Editada `snippets/product-media-gallery-content.liquid` (copia en `tema/snippets/`, original en el historial de git):
-  una foto con `#<color>` en su texto alternativo (ej. `#black`, `#green`, `#yellow`) solo se ve con ese color;
+  una foto con `#<color>` en su texto alternativo (`#green`, `#yellow`, `#black`) solo se ve con ese color;
   las fotos sin `#` se ven en todos. Si un color no tiene fotos etiquetadas, se muestra la galería completa.
-- Plan: 4 fotos por color (portada + 3 ángulos: lateral, 3/4 frontal, superior/suela), editadas en Higgsfield
-  como foto de producto a partir de la sesión de Drive **"sesion zapatos f project"** (45 JPG de 4–9 MB,
-  carpeta `12NkTciwsV9GpPAAbV4WWSr-dCDTPKA5N`).
-- Bloqueo: Claude no puede ver esas fotos (el conector de Drive no descarga archivos tan pesados y la red de la
-  sesión bloquea drive.google.com, *.googleusercontent.com, cdn.shopify.com y la CDN de Higgsfield).
+- Producto KIBA: 16 fotos, todas etiquetadas. Orden: verde (portada, frontal, suela, flexible), amarillo (igual),
+  negro (igual), y al final 4 fotos extra del verde (par con suela, apilado, en el pie, colgando) con `#green`.
+- Fotos nuevas hechas en Higgsfield (`nano_banana_2_1`, 2k, ~2 créditos c/u) a partir de la sesión de Drive
+  "sesion zapatos f project" (todas las 47 fotos de esa sesión son del zapato VERDE). Amarillo y negro se
+  recrearon desde las fotos verdes usando su portada como referencia de color.
+- Red de la sesión: se permitieron drive.google.com, drive.usercontent.google.com, *.googleusercontent.com,
+  cdn.shopify.com, cdn.higgsfield.ai. Siguen bloqueados la CDN de resultados de Higgsfield y upload.higgsfield.ai:
+  para ver resultados se importan a Archivos de Shopify (`fileCreate`) y se miran en cdn.shopify.com.
+  La tienda (fprojectcompany.com) tampoco es accesible: la vista previa del tema la revisa Freddy.
 - Publicar el tema lo hace Freddy (Temas → Publicar); el conector no puede publicar temas.
 - El repo `freddmedina/claude` es **público**: no guardar aquí datos sensibles.
 
