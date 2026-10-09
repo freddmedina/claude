@@ -149,6 +149,7 @@ en fascitis plantar).
   las fotos sin `#` se ven en todos. Si un color no tiene fotos etiquetadas, se muestra la galería completa.
 - Producto KIBA: 16 fotos, todas etiquetadas. Orden: verde (portada, frontal, suela, flexible), amarillo (igual),
   negro (igual), y al final 4 fotos extra del verde (par con suela, apilado, en el pie, colgando) con `#green`.
+  Decisión de Freddy (2026-10-09): **se quedan** — el verde muestra 8 fotos y amarillo/negro 4.
 - **Frontales = fotos reales de Freddy** (par visto desde arriba, una por color), sin IA: solo fondo aclarado
   y recorte cuadrado con Python/Pillow. La frontal hecha con IA se descartó porque cambiaba cortes y estética.
   Regla: para vistas donde importa el diseño, preferir foto real con retoque mínimo antes que IA.
