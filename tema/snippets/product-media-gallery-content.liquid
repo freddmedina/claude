@@ -118,6 +118,40 @@
   else
     assign sorted_media = selected_product.media
   endif
+
+  # FProject: galería por color. Una foto cuyo texto alternativo lleva "#<color>"
+  # (ej. "#black") solo se muestra con ese color; las fotos sin "#" se muestran en todos.
+  # Si el color elegido no tiene fotos etiquetadas, se muestra la galería completa.
+  assign fp_color = ''
+  for fp_option in selected_product.options_with_values
+    assign fp_option_name = fp_option.name | downcase
+    if fp_option_name == 'color' or fp_option_name == 'colour'
+      assign fp_color = fp_option.selected_value | handleize
+    endif
+  endfor
+
+  if fp_color != ''
+    assign fp_tag = '#' | append: fp_color
+    assign fp_color_media = '' | split: ','
+    assign fp_shared_media = '' | split: ','
+
+    for media in sorted_media
+      assign fp_alt = media.alt | downcase
+      assign fp_found = selected_product.media | where: 'id', media.id
+      if fp_alt contains '#'
+        if fp_alt contains fp_tag
+          assign fp_color_media = fp_color_media | concat: fp_found
+        endif
+      else
+        assign fp_shared_media = fp_shared_media | concat: fp_found
+      endif
+    endfor
+
+    if fp_color_media.size > 0
+      assign sorted_media = fp_color_media | concat: fp_shared_media
+    endif
+  endif
+
   assign has_image_drop = sorted_media | has: 'media_type', 'image'
 
   # Determine if we're in single column mode (carousel or grid with one column)
