@@ -33,7 +33,7 @@
 
 ## [0:46–0:58] Llamado a la acción
 **Visual:** Fredd sostiene el par hacia la cámara, sonriendo. Cierre con el logo.
-**Texto en pantalla:** PREVENTA ABIERTA 🔥 · [PRECIO PREVENTA] · CUPOS LIMITADOS · fprojectcompany.com
+**Texto en pantalla:** PREVENTA ABIERTA 🔥 · $420.000 (antes $480.000) · CUPOS LIMITADOS · fprojectcompany.com
 **Voz:**
 «Un barefoot real, pensado por un fisioterapeuta y a un precio justo para Colombia. La preventa ya está abierta, con cupos limitados. Entra a fprojectcompany.com o comenta PREVENTA y te mando el link.»
 
@@ -48,7 +48,7 @@ KIBA es el zapato que siempre quise recomendar en consulta:
 ✔️ Suela flexible
 ✔️ Plantilla de transición incluida
 
-🔥 Preventa abierta · cupos limitados · [PRECIO PREVENTA]
+🔥 Preventa abierta · cupos limitados · $420.000 (antes $480.000)
 🛒 fprojectcompany.com (link en la bio)
 💬 O comenta PREVENTA y te envío el link por DM.
 
@@ -57,7 +57,7 @@ Fredd Medina · Fisioterapeuta
 #barefoot #calzadobarefoot #zapatosbarefoot #fisioterapia #saluddelpie
 
 ## Por revisar antes de grabar
-- [ ] Precio de preventa (hoy KIBA cuesta 480.000 en Shopify).
+- [x] Precio de preventa: **$420.000** (precio normal $480.000, un 12,5 % menos).
 - [ ] Confirmar el rango de precio de las marcas importadas antes de decirlo en cámara.
 - [ ] Que el link de la bio apunte a fprojectcompany.com el 15/10.
 - [ ] Mensaje de ManyChat para PREVENTA del 15/10 con el link a la web (hoy dice "te aviso").
