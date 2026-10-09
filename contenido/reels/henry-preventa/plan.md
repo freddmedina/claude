@@ -41,3 +41,27 @@ Fredd Medina · Fisioterapeuta
 Si vienes de zapatos con mucha amortiguación, haz el cambio de forma gradual.
 
 #barefoot #calzadobarefoot #entrenamiento #zerodrop #fisioterapia
+
+---
+
+## Resto de la carpeta (revisado 09/10)
+
+Carpeta compartida del Drive de fprojectcompany26. HENRY 2 y HENRY 3 están subidos dos veces; los archivos son idénticos.
+
+| Video | Duración | Qué muestra | Audio | Uso propuesto |
+|---|---|---|---|---|
+| henry 1.1 | 29 s | Comparación con voz: amortiguación vs barefoot, con los KIBA en el gym | Voz de Henry | **Reel lunes 12/10** (arriba) |
+| HENRY 2 | 23 s | La rutina: se levanta, moviliza los dedos descalzo y entrena con los KIBA (sentadilla, zancadas, salto al cajón, sentadilla con salto) | Sin voz | **Reel miércoles 14/10, "Mañana abrimos"** |
+| HENRY 3 | 6 s | Primer plano de los KIBA corriendo en la caminadora | Sin voz | Historias del 14 y 15/10 (cuenta regresiva) y portada en loop |
+| 0318 | 13 s | Fredd con un bebé: "Esto es un pie de niño… anchos, abiertos, funcionales…" (subtítulos ya puestos) | Voz | No es de preventa. Guardar para después del lanzamiento |
+
+### HENRY 2 · "Mañana abrimos" (14/10)
+- **Gancho:** el primer segundo de HENRY 2 es flojo (piernas junto al sofá). Abre con 1–2 s de HENRY 3 (KIBA corriendo) y luego pasa a la rutina.
+- **Textos en pantalla, por escenas:**
+  1. "Así empieza el día un pie libre 🦶" (despertar y movilidad de dedos)
+  2. "Primero despierta el pie…" (estiramiento de dedos)
+  3. "…después, a entrenar con KIBA" (sentadilla y zancadas)
+  4. "Estabilidad en cada salto" (cajón y salto)
+  5. Cierre: "Preventa KIBA · MAÑANA 15 de octubre · Comenta PREVENTA"
+- **Audio:** música en tendencia de Instagram (el video no trae voz).
+- **Copy:** "Mañana abrimos la preventa de KIBA 🦶 Cero drop, puntera ancha, suela flexible y plantilla de transición. 💬 Comenta PREVENTA y te aviso apenas abra."
