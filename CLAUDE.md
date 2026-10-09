@@ -102,7 +102,8 @@ en fascitis plantar).
 
 ## Pie de página (footer)
 
-- Tema activo: **"Tinker - Bebas Neue"** (`gid://shopify/OnlineStoreTheme/198768656753`).
+- Tema activo (desde 2026-10-09): **"Tinker - Bebas Neue (fotos por color)"** (`gid://shopify/OnlineStoreTheme/208330883441`).
+  El anterior "Tinker - Bebas Neue" (`198768656753`) quedó sin publicar como respaldo (idéntico salvo la galería).
   Las columnas del footer son bloques de menú en `sections/footer-group.json`.
   El conector no puede editar archivos del tema activo; esos cambios se hacen en el editor de temas.
 - Menús creados/actualizados en Navegación:
@@ -141,8 +142,8 @@ en fascitis plantar).
 - Ventas reales en Shopify a 2026-10-08: solo 4 separadores, **0 pares KIBA**. Inventario KIBA en
   Shopify: 762 pares (ubicación "envia ff bogota"), tallas 45 con 4 por color.
 
-## Galería de fotos por color (2026-10-09) — lista para revisar y publicar
-- Copia del tema SIN publicar: **"Tinker - Bebas Neue (fotos por color)"** (`gid://shopify/OnlineStoreTheme/208330883441`).
+## Galería de fotos por color (2026-10-09) — ✅ PUBLICADA por Freddy
+- Tema (ahora el ACTIVO): **"Tinker - Bebas Neue (fotos por color)"** (`gid://shopify/OnlineStoreTheme/208330883441`).
   Editada `snippets/product-media-gallery-content.liquid` (copia en `tema/snippets/`, original en el historial de git):
   una foto con `#<color>` en su texto alternativo (`#green`, `#yellow`, `#black`) solo se ve con ese color;
   las fotos sin `#` se ven en todos. Si un color no tiene fotos etiquetadas, se muestra la galería completa.
