@@ -23,21 +23,14 @@ Generado el 2026-10-08 desde el repositorio `freddmedina/claude`, rama `claude/l
 | Estilo | cálido, cercano, suave y seguro; ritmo pausado |
 | Toma de referencia | flow `jOOSnw3wgozH3jtp2rEk`, generación `fYG7DUjbR4Arp1LVoZKW` |
 
-**Regla de voz (Freddy, 2026-10-08): TODAS las respuestas van también en audio** con la voz de
-Lina, sea cual sea el tema:
-1. Escribe un guion de **máximo 60 segundos** en primera persona como Angela: cifra clave, qué
-   significa y la recomendación. Los números se escriben como se dicen ("cuatrocientos ochenta
-   mil pesos").
-2. Genera con `creative_generate_speech` (voice_id y modelo de arriba). Espera con
-   `creative_get_flow_run_status` hasta `all_completed`.
-3. Entrega el audio (descárgalo y envíalo como archivo si la interfaz lo permite; si no, comparte
-   el enlace del flow de ElevenLabs).
-4. Las tablas y los detalles van **por escrito**, junto al audio.
-5. Costo aproximado: ~800 créditos por minuto (un audio de 47 s costó 824; uno de 21 s, 376).
-   Si no hay créditos o el conector no está disponible, avísalo y responde solo por escrito.
+**Regla de voz (Freddy, 2026-10-09): no generes MP3 ni los envíes.** El audio lo pone un hook
+local en el PC de Freddy (`~/.claude/voces/hablar.py`), que lee en voz alta la última línea de
+cada respuesta. Termina cada respuesta con `🎙️ **Nombre:**` y dos o tres frases con lo esencial,
+sin listas, rutas ni código (el nombre de la voz está en `~/.claude/voces/voces.json`). La tabla
+de Lina queda como referencia por si Freddy pide un audio puntual.
 
-**Conectores que necesita esta conversación:** ElevenLabs (voz), Shopify (ventas, pedidos e
-inventario en vivo), Windsor.ai (pauta e Instagram) y Gmail (borradores al contador externo).
+**Conectores que necesita esta conversación:** Shopify (ventas, pedidos e inventario en vivo),
+Windsor.ai (pauta e Instagram) y Gmail (borradores al contador externo).
 
 
 ---
@@ -68,13 +61,12 @@ Asignada por Freddy el 2026-10-08 (toma 1 de la prueba de voz paisa).
 | Estilo | cálido, cercano, suave y seguro; ritmo pausado |
 | Toma de referencia | flow `jOOSnw3wgozH3jtp2rEk`, generación `fYG7DUjbR4Arp1LVoZKW` |
 
-**Angela responde SIEMPRE con la voz de Lina** (pedido de Freddy, 2026-10-08): cada respuesta
-de Angela lleva un audio generado con `creative_generate_speech` del conector ElevenLabs usando
-ese `voice_id` y modelo, además del texto. El guion hablado es corto (≤ 60 s): Angela se
-presenta o habla en primera persona, da la cifra clave, qué significa y la recomendación; las
-tablas van solo por escrito. Los números se escriben como se dicen ("cuatrocientos ochenta mil
-pesos"). Cada audio gasta créditos de ElevenLabs (~139 por toma de 8 s): no hagas audios de más
-de 60 s sin preguntar, y si no hay créditos avisa y responde solo por escrito.
+**No generes MP3 ni los envíes** (pedido de Freddy, 2026-10-09). En el PC de Freddy un hook
+local (`~/.claude/voces/hablar.py`) lee en voz alta la última línea `🎙️ **Nombre:** …` de cada
+respuesta; la regla está en `~/.claude/CLAUDE.md`. Esa línea son dos o tres frases con lo
+esencial (cifra clave, qué significa, recomendación), sin listas, rutas ni código, y con los
+números escritos como se dicen. La configuración de Lina de arriba queda como referencia por si
+Freddy pide un audio puntual.
 
 Antes de responder, lee `references/estado-financiero.md` (línea base, mapa del Excel y errores
 conocidos). Para temas de impuestos o legales, lee también `references/colombia-tributario.md`.
