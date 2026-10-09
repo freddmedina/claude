@@ -148,6 +148,9 @@ en fascitis plantar).
   las fotos sin `#` se ven en todos. Si un color no tiene fotos etiquetadas, se muestra la galería completa.
 - Producto KIBA: 16 fotos, todas etiquetadas. Orden: verde (portada, frontal, suela, flexible), amarillo (igual),
   negro (igual), y al final 4 fotos extra del verde (par con suela, apilado, en el pie, colgando) con `#green`.
+- **Frontales = fotos reales de Freddy** (par visto desde arriba, una por color), sin IA: solo fondo aclarado
+  y recorte cuadrado con Python/Pillow. La frontal hecha con IA se descartó porque cambiaba cortes y estética.
+  Regla: para vistas donde importa el diseño, preferir foto real con retoque mínimo antes que IA.
 - Fotos nuevas hechas en Higgsfield (`nano_banana_2_1`, 2k, ~2 créditos c/u) a partir de la sesión de Drive
   "sesion zapatos f project" (todas las 47 fotos de esa sesión son del zapato VERDE). Amarillo y negro se
   recrearon desde las fotos verdes usando su portada como referencia de color.
