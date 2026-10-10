@@ -1,6 +1,6 @@
 # Guion del reel de preventa KIBA: "¿Qué hacemos en China?"
 
-- **Publicación:** día del lanzamiento real (tentativo: VIP 7/12, público 9/12). Una versión "historia" sin precio ni web se usa el 9/11.
+- **Publicación:** **viernes 30/10, 11:30 a. m. (tentativo): es el video de la preventa oficial.**
 - **Duración:** 50–60 s. Se recortó de 75 s porque nuestros reels pierden a la mayoría en los primeros segundos.
 - **Voz:** Fredd, a cámara. El fisio es el ángulo que ninguna otra marca puede copiar.
 - **Referencia:** https://www.instagram.com/reel/Dblpq7vpb3U/ (Claude no pudo abrirla desde su entorno).
@@ -39,7 +39,7 @@
 
 ---
 
-## Copy del post (día del lanzamiento)
+## Copy del post (30/10)
 Fuimos hasta China para traer el barefoot a Colombia a un precio justo 🇨🇳➡️🇨🇴
 
 KIBA es el zapato que siempre quise recomendar en consulta:
@@ -49,6 +49,8 @@ KIBA es el zapato que siempre quise recomendar en consulta:
 ✔️ Plantilla de transición incluida
 
 🔥 Preventa abierta · cupos limitados · $480.000
+🎁 Separadores F Movement de regalo con tu compra en preventa
+📦 Despachos desde el [FECHA]
 🛒 fprojectcompany.com (link en la bio)
 💬 O comenta PREVENTA y te envío el link por DM.
 
@@ -60,5 +62,6 @@ Fredd Medina · Fisioterapeuta
 - [x] Precio de preventa: **$480.000** (el mismo que ya está en Shopify).
 - [ ] Precio normal después de la preventa (para mostrarlo tachado, si se quiere).
 - [ ] Confirmar el rango de precio de las marcas importadas antes de decirlo en cámara.
-- [ ] Que el link de la bio apunte a fprojectcompany.com el día del lanzamiento.
-- [ ] Mensaje de ManyChat para PREVENTA del día del lanzamiento, con el link a la web.
+- [ ] Fecha de despacho confirmada con el proveedor (va en la web y en el copy).
+- [ ] Que el link de la bio apunte a fprojectcompany.com el 30/10.
+- [ ] Mensaje de ManyChat para PREVENTA del 30/10, con el link a la web (texto en `contenido/actualizacion-fecha-kiba.md`).

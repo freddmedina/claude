@@ -40,15 +40,17 @@ No existe un conector MCP propio de Instagram: Instagram entra **a través de Wi
   - Sirve para analítica (`getAnalyticsDataByMetrics`, ej. `IGEV01` seguidores), mejores horas para
     publicar y **programar publicaciones** (siempre con confirmación de Fredd). Aún no hay posts programados.
 
-## Estado de ventas (actualizado 10/10/2026)
-- **Cambio de planes:** los KIBA llegan a Colombia **a finales de noviembre**. Se **canceló** la preventa y la apertura de la web
-  del 15/10. La web abre cuando lleguen los zapatos (hasta entonces no se puede usar la bodega).
-- **Nueva estrategia:** "PREVENTA" ahora inscribe a la **lista VIP** (gratis, sin pago). Al lanzar: 48 h de acceso VIP y
-  **separadores F Movement de regalo solo para quienes compren en la preventa** (por ahora; Fredd podría cambiar la estrategia). Fecha tentativa: VIP lun 7/12, público mié 9/12, entrega antes de Navidad.
-  No anunciar la fecha exacta hasta que los zapatos estén en la bodega.
-- Parrilla y fases en `contenido/parrilla-oct-dic.md`. Textos del cambio (ManyChat, DM, copys) en `contenido/actualizacion-fecha-kiba.md`.
-- Mientras tanto los separadores se venden **solo por DM de Instagram o por el enlace de la bio (Linktree)**.
-  No poner enlaces a fprojectcompany.com en Instagram ni en DM, ni pedir cambiar la bio, hasta el lanzamiento.
+## Estado de ventas (actualizado 10/10/2026, versión 2)
+- **Preventa oficial KIBA: viernes 30/10 (tentativa)**, abierta con el reel de China (`contenido/reels/guion-preventa-china.md`).
+  Los zapatos podrían llegar a la bodega antes de finales de noviembre; desde que llegan tardan 24 h en estar listos para despachar.
+  En la web y en el copy hay que poner una fecha de despacho concreta (por confirmar con el proveedor).
+- La preventa y la apertura de la web del 15/10 se **cancelaron**. Hasta el 30/10, "PREVENTA" inscribe a la **lista VIP**
+  (gratis). Propuesta: los VIP reciben el link por DM el 29/10.
+- **Beneficio:** separadores F Movement de regalo **solo para quienes compren en la preventa** (por ahora; puede cambiar).
+- Parrilla en `contenido/parrilla-oct-dic.md` y vista visual en https://claude.ai/artifact/UY8yNg6k97T5ctm51BGzdX.
+  Textos del cambio (ManyChat, DM, copys) en `contenido/actualizacion-fecha-kiba.md`.
+- Hasta el 30/10 los separadores se venden **solo por DM de Instagram o por el enlace de la bio (Linktree)**.
+  No poner enlaces a fprojectcompany.com en Instagram ni en DM hasta la preventa.
 - Precio KIBA: **$480.000** (el que ya está en Shopify).
 - Llamados activos: "PREVENTA" (lista VIP KIBA) y "GUÍA" (separadores; guía en
   `contenido/guia-separadores-3-ejercicios.md`). Fredd responde los DM; Claude responde los comentarios públicos.
