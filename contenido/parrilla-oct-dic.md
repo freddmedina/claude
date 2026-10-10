@@ -1,10 +1,12 @@
 # Parrilla de contenido: 12/10 → 11/12/2026 (ajustada el 10/10)
 
+Vista visual con el estado de cada pieza: https://claude.ai/artifact/UY8yNg6k97T5ctm51BGzdX
+
 ## Cambio de planes (10/10)
 - Los KIBA llegan a Colombia **a finales de noviembre** (antes se esperaban el 15/11).
 - **Se cancela la preventa y la apertura de la web del 15/10.** La web abre cuando lleguen los zapatos, porque hasta entonces no se puede usar la bodega.
 - **Nueva estrategia:** Lista VIP gratis (ManyChat recoge correo, talla y color) → lanzamiento con 48 h de acceso VIP.
-- **Beneficio VIP:** **separadores F Movement de regalo** al comprar KIBA en las 48 h VIP.
+- **Beneficio:** **separadores F Movement de regalo solo para quienes compren en la preventa** (las 48 h VIP). Por ahora; la estrategia puede cambiar.
 - **Fecha tentativa:**
   - VIP: lunes 7/12.
   - Público: miércoles 9/12.

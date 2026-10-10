@@ -44,7 +44,7 @@ No existe un conector MCP propio de Instagram: Instagram entra **a través de Wi
 - **Cambio de planes:** los KIBA llegan a Colombia **a finales de noviembre**. Se **canceló** la preventa y la apertura de la web
   del 15/10. La web abre cuando lleguen los zapatos (hasta entonces no se puede usar la bodega).
 - **Nueva estrategia:** "PREVENTA" ahora inscribe a la **lista VIP** (gratis, sin pago). Al lanzar: 48 h de acceso VIP y
-  **separadores F Movement de regalo** con el par. Fecha tentativa: VIP lun 7/12, público mié 9/12, entrega antes de Navidad.
+  **separadores F Movement de regalo solo para quienes compren en la preventa** (por ahora; Fredd podría cambiar la estrategia). Fecha tentativa: VIP lun 7/12, público mié 9/12, entrega antes de Navidad.
   No anunciar la fecha exacta hasta que los zapatos estén en la bodega.
 - Parrilla y fases en `contenido/parrilla-oct-dic.md`. Textos del cambio (ManyChat, DM, copys) en `contenido/actualizacion-fecha-kiba.md`.
 - Mientras tanto los separadores se venden **solo por DM de Instagram o por el enlace de la bio (Linktree)**.
