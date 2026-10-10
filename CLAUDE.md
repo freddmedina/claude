@@ -40,17 +40,22 @@ No existe un conector MCP propio de Instagram: Instagram entra **a través de Wi
   - Sirve para analítica (`getAnalyticsDataByMetrics`, ej. `IGEV01` seguidores), mejores horas para
     publicar y **programar publicaciones** (siempre con confirmación de Fredd). Aún no hay posts programados.
 
-## Estado de ventas (05/10/2026)
-- La **web aún no está abierta al público**: se inaugura el **15/10/2026** junto con la **preventa KIBA**.
+## Estado de ventas (actualizado 10/10/2026)
+- **Cambio de planes:** los KIBA llegan a Colombia **a finales de noviembre**. Se **canceló** la preventa y la apertura de la web
+  del 15/10. La web abre cuando lleguen los zapatos (hasta entonces no se puede usar la bodega).
+- **Nueva estrategia:** "PREVENTA" ahora inscribe a la **lista VIP** (gratis, sin pago). Al lanzar: 48 h de acceso VIP y
+  **separadores F Movement de regalo** con el par. Fecha tentativa: VIP lun 7/12, público mié 9/12, entrega antes de Navidad.
+  No anunciar la fecha exacta hasta que los zapatos estén en la bodega.
+- Parrilla y fases en `contenido/parrilla-oct-dic.md`. Textos del cambio (ManyChat, DM, copys) en `contenido/actualizacion-fecha-kiba.md`.
 - Mientras tanto los separadores se venden **solo por DM de Instagram o por el enlace de la bio (Linktree)**.
   No poner enlaces a fprojectcompany.com en Instagram ni en DM, ni pedir cambiar la bio, hasta el lanzamiento.
-- Precio de preventa KIBA: **$480.000** (el que ya está en Shopify).
-- Llamados activos: "PREVENTA" (KIBA, lista para el 15/10) y "GUÍA" (separadores; guía en
+- Precio KIBA: **$480.000** (el que ya está en Shopify).
+- Llamados activos: "PREVENTA" (lista VIP KIBA) y "GUÍA" (separadores; guía en
   `contenido/guia-separadores-3-ejercicios.md`). Fredd responde los DM; Claude responde los comentarios públicos.
 
 ## Publicación en Instagram (ajustado 08/10/2026)
 - Horario: **11:30 a. m. (Bogotá) lunes/miércoles/viernes**; historias a las 6 p. m.; fin de semana solo historias.
-  Detalle y calendario en `contenido/calendario-octubre.md`. Carruseles en `contenido/carruseles/` (generar.py + render.js).
+  Parrilla vigente en `contenido/parrilla-oct-dic.md` (reemplaza `contenido/calendario-octubre.md`). Carruseles en `contenido/carruseles/` (generar.py + render.js).
 - Programación por Metricool con imágenes enlazadas desde raw.githubusercontent.com (el repo es público).
 - ManyChat responde los comentarios GUÍA/PREVENTA y envía los DM; Claude solo responde lo que ManyChat no cubre, con permiso de Fredd.
 

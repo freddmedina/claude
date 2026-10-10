@@ -1,5 +1,7 @@
 # Calendario de publicaciones — octubre 2026 (ajustado el 08/10 con métricas)
 
+> ⚠️ **Reemplazado el 10/10** por `contenido/parrilla-oct-dic.md` (la preventa del 15/10 se canceló).
+
 ## Horario: 11:30 a. m. (hora Bogotá), lunes / miércoles / viernes
 Por qué:
 - Metricool: la audiencia está más activa de 10:00 a 12:00 entre semana (pico 10–11 a. m.), con un segundo pico a las 6 p. m.

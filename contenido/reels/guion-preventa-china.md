@@ -1,6 +1,6 @@
 # Guion del reel de preventa KIBA: "¿Qué hacemos en China?"
 
-- **Publicación:** jueves 15/10 (día de apertura de la web y la preventa).
+- **Publicación:** día del lanzamiento real (tentativo: VIP 7/12, público 9/12). Una versión "historia" sin precio ni web se usa el 9/11.
 - **Duración:** 50–60 s. Se recortó de 75 s porque nuestros reels pierden a la mayoría en los primeros segundos.
 - **Voz:** Fredd, a cámara. El fisio es el ángulo que ninguna otra marca puede copiar.
 - **Referencia:** https://www.instagram.com/reel/Dblpq7vpb3U/ (Claude no pudo abrirla desde su entorno).
