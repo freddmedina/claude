@@ -39,7 +39,7 @@
 
 ---
 
-## Copy del post (15/10)
+## Copy del post (día del lanzamiento)
 Fuimos hasta China para traer el barefoot a Colombia a un precio justo 🇨🇳➡️🇨🇴
 
 KIBA es el zapato que siempre quise recomendar en consulta:
@@ -60,5 +60,5 @@ Fredd Medina · Fisioterapeuta
 - [x] Precio de preventa: **$480.000** (el mismo que ya está en Shopify).
 - [ ] Precio normal después de la preventa (para mostrarlo tachado, si se quiere).
 - [ ] Confirmar el rango de precio de las marcas importadas antes de decirlo en cámara.
-- [ ] Que el link de la bio apunte a fprojectcompany.com el 15/10.
-- [ ] Mensaje de ManyChat para PREVENTA del 15/10 con el link a la web (hoy dice "te aviso").
+- [ ] Que el link de la bio apunte a fprojectcompany.com el día del lanzamiento.
+- [ ] Mensaje de ManyChat para PREVENTA del día del lanzamiento, con el link a la web.

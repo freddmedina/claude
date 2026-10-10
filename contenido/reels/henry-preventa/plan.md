@@ -3,7 +3,7 @@
 - **Archivo fuente:** "henry 1.1.mp4" (Drive de fprojectcompany26). Vertical 1080×1920, 29 s, con voz.
 - **Fecha:** lunes 12/10, 11:30 a. m. (el yoga de dedos pasa al 19/10).
 - **Actualizado 10/10:** ya no hay preventa el 15/10. Todos los cierres dicen "Lista VIP KIBA · Comenta PREVENTA" y no mencionan fechas.
-- **Objetivo:** que la gente vea los KIBA puestos y en uso antes del 15/10, y comente PREVENTA (ManyChat responde).
+- **Objetivo:** que la gente vea los KIBA puestos y en uso y comente PREVENTA para entrar a la lista VIP (ManyChat responde).
 
 ## Qué tiene el video (transcripción con tiempos)
 
